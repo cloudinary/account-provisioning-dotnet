@@ -9,6 +9,10 @@
     <Copyright>Copyright (c) Cloudinary 2026</Copyright>
     <PackageTags>cloudinary account provisioning sdk api client dotnet</PackageTags>
     <Description>Cloudinary Account Provisioning API .NET SDK.</Description>
+    <PackageProjectUrl>https://github.com/cloudinary/account-provisioning-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cloudinary/account-provisioning-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Initial release of the Cloudinary Account Provisioning .NET SDK.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>

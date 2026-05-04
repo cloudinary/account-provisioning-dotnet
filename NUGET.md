@@ -1,5 +1,29 @@
-# Cloudinary.Account.Provisioning
+# Cloudinary Account Provisioning .NET SDK
 
+[![NuGet Version](https://img.shields.io/nuget/v/Cloudinary.Account.Provisioning.svg)](https://www.nuget.org/packages/Cloudinary.Account.Provisioning)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Cloudinary.Account.Provisioning.svg)](https://www.nuget.org/packages/Cloudinary.Account.Provisioning)
+[![License](https://img.shields.io/github/license/cloudinary/account-provisioning-dotnet.svg)](https://github.com/cloudinary/account-provisioning-dotnet/blob/main/LICENSE)
+
+Developer-friendly & type-safe C# SDK specifically catered to leverage the *Cloudinary Account Provisioning* API.
+
+<!-- Start Summary [summary] -->
+## Summary
+
+Cloudinary Account Provisioning API: Accounts with provisioning API access can create and manage their **product environments**, **users** and **user groups** using the RESTful Provisioning API.
+
+Provisioning API access is available [upon request](https://cloudinary.com/contact?plan=enterprise) for accounts on an [Enterprise plan](https://cloudinary.com/pricing#pricing-enterprise).
+
+The API uses **Basic Authentication** over HTTPS. Your **Account API Key** and **Account API Secret** (previously referred to as **Provisioning API keys**) are used for the authentication. These credentials (as well as your ACCOUNT_ID) are located in the [Cloudinary Console](https://console.cloudinary.com/pm) under **Settings > Account API Keys**.
+<!-- End Summary [summary] -->
+
+## SDK Installation
+
+### NuGet
+
+To add the [NuGet](https://www.nuget.org/) package to a .NET project:
+```bash
+dotnet add package Cloudinary.Account.Provisioning
+```
 
 <!-- Start SDK Example Usage [usage] -->
 ## SDK Example Usage
@@ -29,6 +53,59 @@ var res = await sdk.ProductEnvironments.ListAsync(req);
 // handle response
 ```
 <!-- End SDK Example Usage [usage] -->
+
+## Configuration
+
+### Environment Variables
+
+The SDK loads credentials and configuration automatically from environment variables. The simplest way to configure the SDK is to set the `CLOUDINARY_ACCOUNT_URL` environment variable:
+
+```bash
+export CLOUDINARY_ACCOUNT_URL=account://<PROVISIONING_API_KEY>:<PROVISIONING_API_SECRET>@<ACCOUNT_ID>
+```
+
+This single URL provides all three required values. You can find these credentials in the [Cloudinary Console](https://console.cloudinary.com/pm) under **Settings > Account API Keys**.
+
+Alternatively, you can set each value individually:
+
+| Environment Variable                | Description              |
+| ----------------------------------- | ------------------------ |
+| `CLOUDINARY_ACCOUNT_URL`            | Account URL (recommended — provides all values below) |
+| `CLOUDINARY_PROVISIONING_API_KEY`   | Account API Key          |
+| `CLOUDINARY_PROVISIONING_API_SECRET`| Account API Secret       |
+| `CLOUDINARY_ACCOUNT_ID`             | Account ID               |
+
+Individual environment variables take precedence over values parsed from `CLOUDINARY_ACCOUNT_URL`.
+
+### Usage with Environment Variables
+
+When environment variables are set:
+
+```csharp
+using Cloudinary.Account.Provisioning;
+
+var sdk = new CldProvisioning(new SDKConfig(client: null));
+
+var result = await sdk.ProductEnvironments.ListAsync();
+```
+
+### Explicit Configuration
+
+You can also pass credentials directly:
+
+```csharp
+using Cloudinary.Account.Provisioning;
+using Cloudinary.Account.Provisioning.Models.Components;
+
+var sdk = new CldProvisioning(
+    security: new Security()
+    {
+        ProvisioningApiKey = "YOUR_API_KEY",
+        ProvisioningApiSecret = "YOUR_API_SECRET",
+    },
+    accountId: "YOUR_ACCOUNT_ID"
+);
+```
 
 <!-- Start Authentication [security] -->
 ## Authentication

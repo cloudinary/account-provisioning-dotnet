@@ -6,12 +6,12 @@ management:
   speakeasyVersion: 1.761.11
   generationVersion: 2.881.17
   releaseVersion: 0.1.0
-  configChecksum: 8052d72afbcbe5f139416ee205a8ec8a
+  configChecksum: e1226afbc9cda6bdea7e27ff302211da
   published: true
 persistentEdits:
-  generation_id: f3bdc11d-0f51-4a4e-868d-c4d0f19eafe0
-  pristine_commit_hash: ba9a515dcd0c26c3747d9ed096b9cffff0174a2a
-  pristine_tree_hash: 0ec9d1c58965214836e27859dff869961017987e
+  generation_id: d938d2b6-a87c-41e0-970c-693964568fd5
+  pristine_commit_hash: 7b83fa9cb4b26f477b033427f40f3648fd3d094c
+  pristine_tree_hash: 36c79a1d05dd1286357fc792d6380775731e7a0d
 features:
   csharp:
     additionalDependencies: 0.1.0
@@ -41,8 +41,8 @@ trackedFiles:
     pristine_git_object: 8531640180642eb1b112294224f69bc516b5b22d
   NUGET.md:
     id: f4c8a442a6e5
-    last_write_checksum: sha1:5a736f35e102b3b82e7d1536ed711bf5cfd64319
-    pristine_git_object: 3f658e14d82baf249dbd3fe24323fe3083857c18
+    last_write_checksum: sha1:a40e441d4cd1db7f80dfc359cff47fceeece88fe
+    pristine_git_object: 6a10fa09e16c19093604722294ac0228708adddf
   USAGE.md:
     id: 3aed33ce6e6f
     last_write_checksum: sha1:42401c2f50d08f2545bd47a2f8975e4adc6d6b88
@@ -645,704 +645,704 @@ trackedFiles:
     pristine_git_object: ef3195af86a7d6ef1e34296c380fd52d85b696fd
   src/Cloudinary/Account/Provisioning/AccessKeys.cs:
     id: dd339c82f4d0
-    last_write_checksum: sha1:95d56248ab0d45dda6a9af100d6e78083c743dbb
-    pristine_git_object: 55523c63e2b38c34a1ababc91268045062478f9e
+    last_write_checksum: sha1:be2ec65c9a833bfdc999a099d846e7022809bfb2
+    pristine_git_object: babb141cc74586f91c887a86f93d29f2e3ed8064
   src/Cloudinary/Account/Provisioning/BillingUsage.cs:
     id: d848d356cce6
-    last_write_checksum: sha1:94e4f5fb53cc4e9dac5b76598ee305e9591af35f
-    pristine_git_object: 78bf3e16362f9783baaaaf48235b9b88e4c3849e
+    last_write_checksum: sha1:fe26fc7fa152c6125151652dcc69ed48d89a1129
+    pristine_git_object: 67680579053300f70868eac73598b1697d68e969
   src/Cloudinary/Account/Provisioning/CldProvisioning.cs:
     id: 80dcf86a7e92
-    last_write_checksum: sha1:a9f9b1494b8f53c21816082006492f597881171d
-    pristine_git_object: d83ed7da91bcbe6bfbc3caf2dc90893ce2f73f3a
+    last_write_checksum: sha1:a2c01a3f4f037cacd3b6368e7fd5abba82206d2f
+    pristine_git_object: daaa7ca1e3cbe2ce6d1cefd62d2d8b0d46bf40eb
   src/Cloudinary/Account/Provisioning/Cloudinary.Account.Provisioning.csproj:
     id: ba1e868fdcb1
     last_write_checksum: sha1:84d563dd41cf26cf31fe501de19aec887b79dc9c
     pristine_git_object: 5d60e27cfae02e127efea4b29df0e6628b224e00
   src/Cloudinary/Account/Provisioning/CustomPolicies.cs:
     id: 61edc1f3a28f
-    last_write_checksum: sha1:143af7a5e525c1c374323699bfc8e412c2bd869f
-    pristine_git_object: 1dddf26b8c31ed0c6087fabd8f17058af10eb944
+    last_write_checksum: sha1:42f0015b7b64c45820d0d044043de7698b51ce24
+    pristine_git_object: 48b4fec131fb7ba986cb9553675ec8c16d4752e4
   src/Cloudinary/Account/Provisioning/EffectivePolicies.cs:
     id: f365df1dbabb
-    last_write_checksum: sha1:11f52ff9f00c4143ad0e2a104393f6118f583c66
-    pristine_git_object: 4ef5285a089f8b595598230c3ef9a05d6cf118c8
+    last_write_checksum: sha1:a54e926bcf885905b794aa64748a1f43a17d7a35
+    pristine_git_object: 15b901fcb90a589b927fe137cd30c3aa98656e86
   src/Cloudinary/Account/Provisioning/Hooks/HookTypes.cs:
     id: 5369455ef9e1
-    last_write_checksum: sha1:fb6ef63130c78ed57ab9c5acb873004080f1d78f
-    pristine_git_object: 595ce52aec389bf69d2f7281512a8afb5b754a81
+    last_write_checksum: sha1:bb29e79d8c27a6c272f177f9bd6e52de8643855f
+    pristine_git_object: 56bbc98c2279bb09c07573aac6938708f576bfd9
   src/Cloudinary/Account/Provisioning/Hooks/SDKHooks.cs:
     id: 00b92fd8de56
-    last_write_checksum: sha1:934303dffc3931b2173a57c941c7d2ea372c4dc3
-    pristine_git_object: e2762fae7a6676e0329bb023ca8b6182fc64dd22
+    last_write_checksum: sha1:b393e9c7bac33cc20b6dcdd314194ceeab358aa3
+    pristine_git_object: 46e4360d5fdc8de387a5b2a9fa41fcdec83bc1f7
   src/Cloudinary/Account/Provisioning/Models/Components/AccessKey.cs:
     id: bfe96d434b32
-    last_write_checksum: sha1:e1c400ed3885ae160a5e774e8dd5ede212213895
-    pristine_git_object: 32588135a070f62bf9a9f1c70650256f640eb662
+    last_write_checksum: sha1:995bee5ef3a64c10d7ed5d03f1c870ab1b9f75e9
+    pristine_git_object: 82c116a92fcf70a7538788e33d8dd86d63222f4c
   src/Cloudinary/Account/Provisioning/Models/Components/AccessKeyRequest.cs:
     id: b102aab10b45
-    last_write_checksum: sha1:a40c18a22e8fd5bb9c0c584e5389c90073b02799
-    pristine_git_object: f0986fba34ce19faedfa43fb172a20b39e3e24e0
+    last_write_checksum: sha1:27a5ecd69c40560a430c6019160171bdfd2fd7da
+    pristine_git_object: de1b7548c14d1bf0fe6cb9634482fbe4be3cd72e
   src/Cloudinary/Account/Provisioning/Models/Components/AccessKeyUpdateRequest.cs:
     id: d7a8c7b55777
-    last_write_checksum: sha1:dc1fafca1624bc884c131b2a8d1c2fe6bf6ef568
-    pristine_git_object: 390ca343286242de89226bd9ece5aa22aacc812c
+    last_write_checksum: sha1:cb527378fdc80a2453e782732773fdc7d357826a
+    pristine_git_object: 77f665bd43b64d0999cb4f1a1a7c6964d1dbff5f
   src/Cloudinary/Account/Provisioning/Models/Components/AccessKeysResponse.cs:
     id: a4a7493897d5
-    last_write_checksum: sha1:0ab391b11a6a8cd6b19ef6103d7065519ac6eaa9
-    pristine_git_object: dda426c56cbe74839c72da99c9e8d239288df87e
+    last_write_checksum: sha1:66c4cacff9fb8bab1e563576d96df3dc09af79a5
+    pristine_git_object: be6fa846e4109e470eff71490f6541d0a8c9c19a
   src/Cloudinary/Account/Provisioning/Models/Components/ApiAccessKey.cs:
     id: 1e6552033839
-    last_write_checksum: sha1:edcf53ee5bbc9b695565a3300435652985e24c88
-    pristine_git_object: 99925c5c235e667c561723326400db157511acef
+    last_write_checksum: sha1:1a668a6eac09b2f910be098dcbfa36447b6c47e5
+    pristine_git_object: 3ed4847d04680a49613c4f2ee2771d019a6f3967
   src/Cloudinary/Account/Provisioning/Models/Components/BillingUsageResponse.cs:
     id: ae8bd0dc16dc
-    last_write_checksum: sha1:6eb5f3f7777e26f3d7c72674c6c9f01cd65ee2ef
-    pristine_git_object: dcb6bf5711b6069dfb4bc4cb32de65042cd92153
+    last_write_checksum: sha1:4379bb2c1b6f415f6748175c28c6f44fa9271f73
+    pristine_git_object: 0cb65bf1aee9751c7e8a9dd496a21aabf12b1c0d
   src/Cloudinary/Account/Provisioning/Models/Components/BillingUsageResponseBreakdown.cs:
     id: b404113100e7
-    last_write_checksum: sha1:3e9f1c119af1863840de63ac6284ff4489c277da
-    pristine_git_object: 1737853a0150ffc279c29dfc6f9c517717a0c78e
+    last_write_checksum: sha1:ad2381cc18bb7e9a7eece51a584f0c70658f8ffa
+    pristine_git_object: 3e2ff46862b4d29848df3ad4b230d544bda34e73
   src/Cloudinary/Account/Provisioning/Models/Components/Breakdown.cs:
     id: 93f7958f82c1
-    last_write_checksum: sha1:6c9f170dabe88ccb18904b127090d7cc2111702d
-    pristine_git_object: bfd731f4a09dd5d0c5f9a6583aa1cc8d26ade160
+    last_write_checksum: sha1:cfa02eb187ba7661e054d115a1310199169648d8
+    pristine_git_object: f8bcad6ffe6cbda72204598736e29ba734eff253
   src/Cloudinary/Account/Provisioning/Models/Components/CedarError.cs:
     id: f3c90969d10c
-    last_write_checksum: sha1:8625044d839aebad6eafb5f329d83173037a5072
-    pristine_git_object: 6d92d689cff97aec744f2e55b2eee92eb573cc97
+    last_write_checksum: sha1:18e604f05d12dcbc7dfa23ecd6651a64f8a0ed4f
+    pristine_git_object: 3a26e12dbbb02e4e5c1e93264701facd43c832b1
   src/Cloudinary/Account/Provisioning/Models/Components/CedarSchemaResponse.cs:
     id: c35b473ec8e5
-    last_write_checksum: sha1:e9214ca248fe23b48ae644321d355a959b0b53ce
-    pristine_git_object: e0fe43ecfa003dee19a11a86739310f8fba0da37
+    last_write_checksum: sha1:00bea011c8fc4e56aba5ce683acdcef9a36f2909
+    pristine_git_object: 6b96e58c8fba1524b49daf5a9015c189cd3ad2d0
   src/Cloudinary/Account/Provisioning/Models/Components/CloudAssetTypeBreakdown.cs:
     id: b62bc799d7af
-    last_write_checksum: sha1:a170118d526fd4c6d2828902c854e4d1ac1eb5b7
-    pristine_git_object: 9b33f72e5ebc12d1b856346469e3f0beb936fe7d
+    last_write_checksum: sha1:9b8f66337e0aa05efa602f183b08f3f733992144
+    pristine_git_object: 377416209daeb9b1fcc02bcc923e6e44c9794c10
   src/Cloudinary/Account/Provisioning/Models/Components/CreateRole.cs:
     id: fd7be853b06e
-    last_write_checksum: sha1:e84e153ad07053512094707670763f6eddced033
-    pristine_git_object: ea51791f7ece40405153c432fc90ef37ff5af78f
+    last_write_checksum: sha1:d2b9f5efebb2fb5bdf26a724154259f376372f25
+    pristine_git_object: 7360b6625f0bb5afa46f19aff45942c8a4a72641
   src/Cloudinary/Account/Provisioning/Models/Components/CustomAttributes.cs:
     id: 64df74e9ea9f
-    last_write_checksum: sha1:8794bba8c3b581c28d610e7e12228c9ddf31114a
-    pristine_git_object: e72d72ae190c0b6b0aab2236f5d0565f03657986
+    last_write_checksum: sha1:4537f7aa8ce1862692641dc5c4ebe988148408ad
+    pristine_git_object: 4769e7246b011f186e45b26f3a689cf90f3c5731
   src/Cloudinary/Account/Provisioning/Models/Components/CustomPoliciesResponse.cs:
     id: 8412cbe04e09
-    last_write_checksum: sha1:6bf661e39cf69528fa412200b782fc8bc5f6ceb0
-    pristine_git_object: 0d26f70430e167dac079fec04a35712f60c97c6a
+    last_write_checksum: sha1:1634e8bcafebcdabd28ece79abf5070b74b6b4ec
+    pristine_git_object: 9e86e7c348d4ff6f40ceca4ba2d3cbfd26eb4086
   src/Cloudinary/Account/Provisioning/Models/Components/CustomPolicy.cs:
     id: 825b9114cf79
-    last_write_checksum: sha1:a012be012148390896843ea2363e7515d5cbe520
-    pristine_git_object: 41d37f92640e5059397b20ecf5738d426dd0deb9
+    last_write_checksum: sha1:dce440083c02ee0cc8a8c36793eed4bf7c2be76e
+    pristine_git_object: 1716b06efec75066dec0216b77fbd58acc1d0217
   src/Cloudinary/Account/Provisioning/Models/Components/CustomPolicyResponse.cs:
     id: 50fe0e1e556f
-    last_write_checksum: sha1:ee80031bdc231a2b9dee616ebef7360d2993640d
-    pristine_git_object: c497231b7578cd131658cc4e0435b54510cd358c
+    last_write_checksum: sha1:8b46622862945a7986dffedd61227f65c88cd2d3
+    pristine_git_object: ccf05b612e8f3a8f40c0a129478fa66e169ab0d4
   src/Cloudinary/Account/Provisioning/Models/Components/CustomPolicyResponseData.cs:
     id: 4263bd13d72a
-    last_write_checksum: sha1:30a57f461f20f97d974d30f09f80f00ed3605768
-    pristine_git_object: 8b14afd60c41afa4b4c76a0d72e2fdf96c5c06ea
+    last_write_checksum: sha1:3aca80a85f2f18e755b3750931d6f70540f26dc5
+    pristine_git_object: d42b12ce63095f8fe77869d2c8928d85b98ea01c
   src/Cloudinary/Account/Provisioning/Models/Components/Cycles.cs:
     id: 209ad98d81b8
-    last_write_checksum: sha1:9d62a3fae3548f99e6df791aa6f881ebf186f5ae
-    pristine_git_object: d7d676862ef419f71f28e60f140a14d5c9422f45
+    last_write_checksum: sha1:63432e6aec3463bbaa13dad1720c172895814b1c
+    pristine_git_object: 73605d2f3f9f2882fb6debef50bb429e58cfc039
   src/Cloudinary/Account/Provisioning/Models/Components/Data.cs:
     id: 447213630fa8
-    last_write_checksum: sha1:05f68b352b47e2341e263bb12e58c50d4e394c12
-    pristine_git_object: 7c7e140c7dcd86c67a057ea5dd3f349f364d3d8e
+    last_write_checksum: sha1:9c031461f2e8602a611b9ae4c3195f68e37392a0
+    pristine_git_object: 227827d93a7e970d0eea5d0b8f736a72e671fae1
   src/Cloudinary/Account/Provisioning/Models/Components/DedicatedFor.cs:
     id: 174c60e487d2
-    last_write_checksum: sha1:0abeb84ab9f86c12a434e2567c861e6ab39a6b30
-    pristine_git_object: 2ae0e00491dacafa9afbdb1a85ebf6b84ef911f1
+    last_write_checksum: sha1:66199fb961620e2557b404639c380a82e650314e
+    pristine_git_object: e082edc4699bf4d63497f63a3cd893f8d2bf4eb0
   src/Cloudinary/Account/Provisioning/Models/Components/Details.cs:
     id: 22fe8d0a367b
-    last_write_checksum: sha1:e63ee085e89d4517baae646dc153f1796515afed
-    pristine_git_object: 0c2e0f834abfbf3f5e59408f7529d5a6f81d4231
+    last_write_checksum: sha1:6315dcb647b907bbe529a42a941a6c88f87d1b71
+    pristine_git_object: e0d7057ca7ce810e048dcc94d912b2e3ee70b5af
   src/Cloudinary/Account/Provisioning/Models/Components/EffectivePoliciesResponse.cs:
     id: c74406069923
-    last_write_checksum: sha1:75057eb26f140a3041b7ca5b517bdd21900ae576
-    pristine_git_object: d6f77d17ad26a9ac51eabddbfe01117d2c24ae6b
+    last_write_checksum: sha1:e855175123cad43c9c51a0589c33813de7ad524e
+    pristine_git_object: 21921b9f28b60c1e7eda6496c37afd250a3113fc
   src/Cloudinary/Account/Provisioning/Models/Components/EffectivePolicy.cs:
     id: 3e7cdc229533
-    last_write_checksum: sha1:d0f40a3681cf58ac40db42f28f88c75b2736f551
-    pristine_git_object: 15c00ac601e3ad273f49c440e8cc1f41a9286762
+    last_write_checksum: sha1:96e5d249b87aad22d66924c7112cd426ba026b85
+    pristine_git_object: 0cb9c48f3a30e13883d892f65e325534423fe25c
   src/Cloudinary/Account/Provisioning/Models/Components/EffectiveRole.cs:
     id: 1d1462d0a594
-    last_write_checksum: sha1:100a48361ba60245c14a080f1665a876f2b38a8a
-    pristine_git_object: 5facfacc5704afa42cf95dc24300bb40beb85299
+    last_write_checksum: sha1:a067c82ce12b7fd8fbe98b5482e146923eb24a40
+    pristine_git_object: a95bc779cc1bbf14d9ec1e896329e17db28efb3c
   src/Cloudinary/Account/Provisioning/Models/Components/EmailPreferences.cs:
     id: 8fe9277f3906
-    last_write_checksum: sha1:aa299dd9b765082b7c227b08f1347723ea5d4919
-    pristine_git_object: 231228f321a470456f39368441c6b2e356252206
+    last_write_checksum: sha1:921fde7c8f4ff2d026bc0f33b04307b540f50be8
+    pristine_git_object: cdcadd42e2fcc06626f01398f856e21043c1a476
   src/Cloudinary/Account/Provisioning/Models/Components/Error.cs:
     id: 0f7499ab887c
-    last_write_checksum: sha1:3e7bfec2020baf36b364997c37bf0b708ea80d7a
-    pristine_git_object: e5297135dd7e9f9da8178f9c6bb82afb3be12a3f
+    last_write_checksum: sha1:520b7ce4b8fef55d9e7eb7899a2cf28d571254e9
+    pristine_git_object: 9b6f7b842981c424c8789e4bcc8aa52132f6063f
   src/Cloudinary/Account/Provisioning/Models/Components/InspectRequest.cs:
     id: d04501d1e15a
-    last_write_checksum: sha1:83fda1c72bc74b48afacedaadcbff087206e9835
-    pristine_git_object: 1117ad7306bd03a0370421fe58225b0c931ad53d
+    last_write_checksum: sha1:de52645b32427bb162f7a62c53b3493f2bd125fe
+    pristine_git_object: 94cdf0eeb4e89d7a33103178ffaf0969c88575fd
   src/Cloudinary/Account/Provisioning/Models/Components/InspectRequestPolicyParameters.cs:
     id: 872d3cfe47bc
-    last_write_checksum: sha1:9ef48c63301ce9995c36b8d46282b68568d4fc6f
-    pristine_git_object: 2382535a64e70f3c6fa65682b8e64bd253ba7685
+    last_write_checksum: sha1:b8918c582a528416c74ec190f1219ebb7748699b
+    pristine_git_object: 38b0a226a0dece5e045aad15f231e4d820c94764
   src/Cloudinary/Account/Provisioning/Models/Components/ManagementTypeEnum.cs:
     id: edd8d5a40f67
-    last_write_checksum: sha1:72e1379871a10ed46ae25b01c8970db34a9d3eb3
-    pristine_git_object: ad2d973a477302ca0fe6e3bc21ab39f62aa94789
+    last_write_checksum: sha1:bbf8586e2c08d3ec35d5ced227d9853991285a8b
+    pristine_git_object: 3570d6a447c166ebbbfe4e473e756043237c4139
   src/Cloudinary/Account/Provisioning/Models/Components/MetricUsage.cs:
     id: 3d808167b417
-    last_write_checksum: sha1:015785c69326611f1781a85513678830ecd1abba
-    pristine_git_object: 058510d45ddea4b627884c69fe2d4833e68bf1ba
+    last_write_checksum: sha1:e862ce697cc6df0c410a8c79ceec3a853ab8d9df
+    pristine_git_object: f5ce57bb6441a3932752e52660b3b9681c1defc6
   src/Cloudinary/Account/Provisioning/Models/Components/MonthlyCycles.cs:
     id: 1f5a92673e3b
-    last_write_checksum: sha1:0c304ff1cdfad0ab13d4ab3f16fd7d0e2401d265
-    pristine_git_object: a077a8846fd97805671bedece51a384f5ce533d5
+    last_write_checksum: sha1:86c6f96243eb4d5ae41d3e6ed2d63ab86b37cdbb
+    pristine_git_object: b060bdd4a5d058d41a933105bd36b5360c7f3cbd
   src/Cloudinary/Account/Provisioning/Models/Components/OperationEnum.cs:
     id: 22356a60b229
-    last_write_checksum: sha1:2ca92e5752a51e785cd212985f2f5106a166bc9b
-    pristine_git_object: ba6cf6ff4073c453b5dc8730f7bb89db8b5aa1b3
+    last_write_checksum: sha1:29b28d576b07a47b4f0d79c2012f1c14ad2a3f75
+    pristine_git_object: 93127a3436232a213cfc9f7406972cb8c44cf15b
   src/Cloudinary/Account/Provisioning/Models/Components/PermissionTypeEnum.cs:
     id: a3b27a8f005c
-    last_write_checksum: sha1:1eea0aa3c1b3d1f2b34a055cd95332495f1ae3e5
-    pristine_git_object: 058469fe13ee9f5823e993c93ce8f1d02b288775
+    last_write_checksum: sha1:273f4385f818376b9e86f6bc00d614aa474e2ca5
+    pristine_git_object: 41c284893d9d2a9be6049a3450cd567b4e023c14
   src/Cloudinary/Account/Provisioning/Models/Components/PermissionsError.cs:
     id: 2006b3fd5225
-    last_write_checksum: sha1:a852f22d88a1484e6305c030721cdc5728c7354e
-    pristine_git_object: 93d9e89259da8abf0ddd6181c470dea0a2c0e982
+    last_write_checksum: sha1:daf3c48d6aeeda1ee746aa47ece444aa3b451927
+    pristine_git_object: accbd6c585073c5ce16f508dbbc07b1ce418588b
   src/Cloudinary/Account/Provisioning/Models/Components/PolicyParameters.cs:
     id: be88f390894d
-    last_write_checksum: sha1:d99d0f82e4125f334234a0c5c27da4cc7b5baa5a
-    pristine_git_object: afa2774b55ffcf47b859577496fd5800d4925a97
+    last_write_checksum: sha1:2aa7c4b28aaafada78469a1a0bffb2d8bd9db220
+    pristine_git_object: 29792b6e696ac7986051f814ef62e4d04c974336
   src/Cloudinary/Account/Provisioning/Models/Components/Principal.cs:
     id: e18a37eaf5a9
-    last_write_checksum: sha1:3aaa707c3c9d1d9de325b39250698ef35223ebe9
-    pristine_git_object: ae86c8e4f6605dd55b22909bf67ef4a2acbb7426
+    last_write_checksum: sha1:9f422fb49757cb1d2663b2be8f161b43f88cc75b
+    pristine_git_object: 1cd804c6b4aeb23fa0f267d2f270524b7aea03e7
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalResponseData.cs:
     id: 3a526a0873d9
-    last_write_checksum: sha1:44d18ee8f2b1205b018e3e25d7f3c63e14262fc2
-    pristine_git_object: 8318ecc6ec3041eed71ace66bcfe732db08f7a17
+    last_write_checksum: sha1:aae7abe11d75a5221e311e7e05c7dab5168d61b7
+    pristine_git_object: 9aa51a85e571b4784623ade48f3602d9e870126e
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalResponseDataPolicyParameters.cs:
     id: 8442bf43cde5
-    last_write_checksum: sha1:2f551d4e7f71dc42aeea0db9546bcaa10f2b8b52
-    pristine_git_object: 6c8f6ac114ba37453e1b3e79c2a961bcb7b0cc22
+    last_write_checksum: sha1:08c088d928b5bbfc90af83621eb3c60b33467c28
+    pristine_git_object: 78ddfd3b769b75c1caafe5a0b59d7cb4b72044bd
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRole.cs:
     id: 9452c57e3c25
-    last_write_checksum: sha1:c31267f934a8a58813a9763dbbcbe634d45aa398
-    pristine_git_object: 221b537bd02d186b1ab2ada7f91c44cda4393e95
+    last_write_checksum: sha1:0fe9badc6c02f392bc13d29b6ac09b0585d83576
+    pristine_git_object: 5172f04f2bb7912206055c3085258f95a83c3810
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRolesData.cs:
     id: 6ba6868fe769
-    last_write_checksum: sha1:492e68e6746ab14bb5856fe4eaf3dd4a2b21d643
-    pristine_git_object: 359a80fa8371e7314e2ecff1fcc2e506fd24ad9c
+    last_write_checksum: sha1:4cfb5631c0f0dc30307436836f7e147c3cb939ce
+    pristine_git_object: 69e4330a0859cb82af4878fd8cbdea9494c0c320
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRolesInspectData.cs:
     id: 6937a5e854d1
-    last_write_checksum: sha1:1751e06964f0694b1f914e3fd658d07485f5a722
-    pristine_git_object: f5d92b7629d0301034c6babfa018206f57a73ae0
+    last_write_checksum: sha1:69fc7ea1d96cae1312825c64050764a1719b317d
+    pristine_git_object: b233fa5608d84cda4fe008a1b922a307811e168d
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRolesInspectResponse.cs:
     id: 4aac3b417247
-    last_write_checksum: sha1:47af4988a27a89b58febdf9d21370e127a33bed5
-    pristine_git_object: 25f72cf76fcc8691926720c267dae763dac93088
+    last_write_checksum: sha1:ef4476f2ef564ef9e806eb2704e433b4ac89d45d
+    pristine_git_object: 75c7ce86f4673ab5e0e2ec955b1da1a22e5e9cdc
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRolesInspectResponseData.cs:
     id: e28ae36926f5
-    last_write_checksum: sha1:15f41f1fb226508bd905e2f18712499602290e22
-    pristine_git_object: acbdc2f7fe88b2d8c6dd0251658c7b050d705152
+    last_write_checksum: sha1:4cc2b0fe22c36b1e87c8470510ebde1fd404c635
+    pristine_git_object: c337a4820f3ff6290ca800881d44af58c75aca04
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalRolesResponse.cs:
     id: 01eb59d91251
-    last_write_checksum: sha1:b238f1dfa830c5ce508d5a0b7d450690ce58698c
-    pristine_git_object: ebb1e8c799d2f043dd2f90bb31b2201e7c28cbb2
+    last_write_checksum: sha1:94e17e961856d20ebc0888c6712a61ac05b40adc
+    pristine_git_object: 340e429f642efea309f3552444b5119d7440728b
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalTypeEnum.cs:
     id: 7f55438bb4a1
-    last_write_checksum: sha1:2f4eaf2cf8b8bbcd16f452f4ad1ac7487189cad1
-    pristine_git_object: 83db94eb56109707a9147d538b6d73a511745eb7
+    last_write_checksum: sha1:e85bc6eb8735e500a52db817cf6b5774618105d5
+    pristine_git_object: ead73a415a4bca09b08a8df794b0a7d403a11551
   src/Cloudinary/Account/Provisioning/Models/Components/PrincipalsResponse.cs:
     id: f6bec7e2045a
-    last_write_checksum: sha1:f45a59c50b088625556844e271512d86f5b8a99e
-    pristine_git_object: 497268c9f98d8a454571083c6d48a3ec9a1df148
+    last_write_checksum: sha1:becf48c5f4546d46956cd006763e288fb5ecf1e4
+    pristine_git_object: 8ab76f3af939fbf95208fec4874041b093d538ea
   src/Cloudinary/Account/Provisioning/Models/Components/ProductEnvironment.cs:
     id: c0da2b6e8973
-    last_write_checksum: sha1:439f365355fe49f974d51a1d68096b3e36cfd864
-    pristine_git_object: f4cbe3fabff279102cd0b0df22ea3bf64d6c5369
+    last_write_checksum: sha1:103c00a795a0e22defe99fcec6a3bd7ae14423b3
+    pristine_git_object: 39cdc9a64909ab485e7320dba3b6ec90ab86c24b
   src/Cloudinary/Account/Provisioning/Models/Components/ProductEnvironmentRequest.cs:
     id: a0edaf0c07cb
-    last_write_checksum: sha1:3dfe4a5902bc6286dfce3fbe338112eed4e79bc4
-    pristine_git_object: 0d82ce7c0183c4aa784f8a579a3ea1d78066cf50
+    last_write_checksum: sha1:d732e0c1f4bda37e329f4e29b352ce67b613eb07
+    pristine_git_object: e713d77a428a9b1edfc0e12705deca4ecb6f6b25
   src/Cloudinary/Account/Provisioning/Models/Components/ProductEnvironmentUpdateRequest.cs:
     id: bc618ff3d8ff
-    last_write_checksum: sha1:9a89c86a965003548319b648aaf598d0d00b1f57
-    pristine_git_object: cb82c39520bec405d014c07dfff3890f4a208b67
+    last_write_checksum: sha1:16f43d118a687de43cd162a30d34992388df9bdd
+    pristine_git_object: 471d28db118856d81eb098e7d690e8a76b29da22
   src/Cloudinary/Account/Provisioning/Models/Components/ProductEnvironmentUpdateRequestCustomAttributes.cs:
     id: 5c6ea39142fe
-    last_write_checksum: sha1:7cbba7df3fe8c749e365d2b9d3768f6a93fe49f0
-    pristine_git_object: 9427d3727bbb21c4076818672456a39f49b9d532
+    last_write_checksum: sha1:29edd0d6986a5db02b54178ef388f8af23da4702
+    pristine_git_object: 287122eca8105e9d1c257507ebf3390f9b3fa27d
   src/Cloudinary/Account/Provisioning/Models/Components/ProductEnvironmentsResponse.cs:
     id: 0c2a90fa397d
-    last_write_checksum: sha1:7ee70586aadee44c828aab345738b85629377398
-    pristine_git_object: 9bcde6bc2056660cf85e2661d9f53de28e0e62a8
+    last_write_checksum: sha1:c661bd276c98c69e438460e94682e622f70626c1
+    pristine_git_object: c6c5987cbf1d551773d07e045d746d46350043eb
   src/Cloudinary/Account/Provisioning/Models/Components/Role.cs:
     id: f726039598e6
-    last_write_checksum: sha1:c1cd299686308cd24ef16dd32da2e46cd401b5cc
-    pristine_git_object: b00b31f209731bbad5df3e9141c6ba9258d6ff00
+    last_write_checksum: sha1:1d08363ed0a552ba43d5bb947890d43a89c6f26b
+    pristine_git_object: 39511c20f885c8068a3ee9ea80d227c3f82bc174
   src/Cloudinary/Account/Provisioning/Models/Components/RoleResponse.cs:
     id: 492337ccb758
-    last_write_checksum: sha1:f592a49407fdbb34e5b3e8fb7dc609d51e418504
-    pristine_git_object: 936d0f68e7f52911a31c08f8fee4c803dca7435b
+    last_write_checksum: sha1:a7181448017177fcbbeaa6e99104f2f001c53a95
+    pristine_git_object: 21c0334b21c8b222f27dfc49101599a03178e098
   src/Cloudinary/Account/Provisioning/Models/Components/RoleResponseData.cs:
     id: f6ff2b1b111c
-    last_write_checksum: sha1:ee3a6757cc9face90f379405c8963b5a0f892e0e
-    pristine_git_object: ccb97828a7929a5082abefead25ab63ea7a7808c
+    last_write_checksum: sha1:c20a5f0f913975389767611abc986c463bcc221f
+    pristine_git_object: 8e91e2118052fd432c12dc80cebfcd8ffbcbd0e1
   src/Cloudinary/Account/Provisioning/Models/Components/RoleResponseData1.cs:
     id: 28de3ae97bc4
-    last_write_checksum: sha1:5c4949a017e242e494793baf42d8c472a60d5c31
-    pristine_git_object: 394345170b914ddb412302b4c979381326c6549c
+    last_write_checksum: sha1:01124803b3e16197040e88c754bbf634e413a834
+    pristine_git_object: 05546d9fc92ef1d275d4985d42137b6943b94600
   src/Cloudinary/Account/Provisioning/Models/Components/RoleToManage.cs:
     id: f01bfa81f7e9
-    last_write_checksum: sha1:38a63a18ef360a04dea5c4d5a1fc829fba829f36
-    pristine_git_object: b3ef2594aa563b5fb584d482e0af28b3e3a09c1f
+    last_write_checksum: sha1:6b642c45939cda18e5e9dd263a3cbeacfc2efa68
+    pristine_git_object: 933418f3d2f0fb7cf84592c94d28bb46cba664cf
   src/Cloudinary/Account/Provisioning/Models/Components/RoleToManagePolicyParameters.cs:
     id: fe04c4f8f831
-    last_write_checksum: sha1:ade26751dc27a786610b5c312e2f4dc6ea7b8019
-    pristine_git_object: c86e1dc13270b62b444423ca12e681a1403dee56
+    last_write_checksum: sha1:7e682dee622670079843f2025357171244d0dd9c
+    pristine_git_object: 9b0b8cc145e3e33b44d281b164f997819094538c
   src/Cloudinary/Account/Provisioning/Models/Components/RolesResponse.cs:
     id: aa25eefc6205
-    last_write_checksum: sha1:74b593fae9342043cda8cbf5e4f63e306f7b9a22
-    pristine_git_object: f9f4c2c7e794f899e5555b0e3884349f321dbb02
+    last_write_checksum: sha1:f26807d9e4950b5a046e7b7439e5757c81a89a15
+    pristine_git_object: 4908483cae9cde04c4ac82c796de6ea19aecd552
   src/Cloudinary/Account/Provisioning/Models/Components/ScopeTypeEnum.cs:
     id: 3fef00d200ce
-    last_write_checksum: sha1:b665b7bf6f5268cb72d5dd9a4734e91250a09353
-    pristine_git_object: 3578adbb131d256b0ad2bcb95424637ae70e6fb5
+    last_write_checksum: sha1:0b5670c8ae2d6b7dfa33685d2e73c11f70b8d351
+    pristine_git_object: 9123667e658b55bbd4bd3749d289fa83c7c7c33a
   src/Cloudinary/Account/Provisioning/Models/Components/Security.cs:
     id: 5bb0c12e0851
-    last_write_checksum: sha1:5d849c2829f215b06e635d1e7a9d6366e2567620
-    pristine_git_object: a599e4cc14906e4625b21aa524ebeab4a168fca4
+    last_write_checksum: sha1:0ca6fe053a7c0fa4ec2bc094cbceea256d77e693
+    pristine_git_object: 2722b1322ba3538d1299931f6ff1cb995de400cc
   src/Cloudinary/Account/Provisioning/Models/Components/SubAccountSummary.cs:
     id: 0e8e7d651f10
-    last_write_checksum: sha1:cfbefc211970f2566eee2f02d4051cd3733e5f16
-    pristine_git_object: 40bf767b41c6076a0469e1a87b00df620d1f8d0b
+    last_write_checksum: sha1:f8941a108eb9e724bca87bd6e4afc5705ae923db
+    pristine_git_object: 0eb429c1bbe08d73f1036f40e7a76e75eebd6a80
   src/Cloudinary/Account/Provisioning/Models/Components/SuccessResponse.cs:
     id: 6859a0666507
-    last_write_checksum: sha1:2483f5062ec237c140fb94bf02a53ed7e78f52cb
-    pristine_git_object: ff6385bfa0f7e8850b047a38997b66191b11452f
+    last_write_checksum: sha1:0abd6e4c91a1e3c8643cd498977e4087e562255a
+    pristine_git_object: 1dde04363543b782b0ab650a276a2521be77a370
   src/Cloudinary/Account/Provisioning/Models/Components/SystemPoliciesResponse.cs:
     id: 770d7bb5cd32
-    last_write_checksum: sha1:8b03ad93b8b7269865096a46295056c25234f410
-    pristine_git_object: fd1fe593b3d2e63b4f9e0b8ca22004d10b9405f0
+    last_write_checksum: sha1:dcd82244c154256115d374624f04ece7c4783b29
+    pristine_git_object: af6f269b9ce945e8c446ac19c6fb989abc8caf06
   src/Cloudinary/Account/Provisioning/Models/Components/SystemPolicyResponseData.cs:
     id: cef1ce68bdb5
-    last_write_checksum: sha1:6c45e15f3b1015df73944ebad5922aff1cb8beb0
-    pristine_git_object: ee21348407b19a1b59fd876c4a36915351292b87
+    last_write_checksum: sha1:f1c02dd4d7606dc567295e32db1f3e58ba005a92
+    pristine_git_object: 892b4a3f623fdee4858b62017b78012d4b8a405b
   src/Cloudinary/Account/Provisioning/Models/Components/SystemRolesAndPoliciesCatalogResponse.cs:
     id: 37d0e361652f
-    last_write_checksum: sha1:eccbe996a322213773a017b788d5f1d974ab6a56
-    pristine_git_object: bda5a1dfccb75f20b2fe11cefaa7cdaa2107923b
+    last_write_checksum: sha1:c76f3ea67cbe4812e1206774b75b8c13e1122079
+    pristine_git_object: 25dde0a4bba711a8ef65379fc54f7753bb7a566b
   src/Cloudinary/Account/Provisioning/Models/Components/UpdateCustomPolicy.cs:
     id: 8b939065337e
-    last_write_checksum: sha1:0defb31f4f033df5f46f21641e02de3d48640f9d
-    pristine_git_object: 8cc73d09002cb17fca4e18328f62e9f217b1193f
+    last_write_checksum: sha1:f8e01c5bf579ff3c6de21f8af408ae69e2e9d0c0
+    pristine_git_object: fa346ce87cbb7b401174ea5ade51c33801608dfc
   src/Cloudinary/Account/Provisioning/Models/Components/UpdatePrincipalRolesRequest.cs:
     id: 9a96768e6dae
-    last_write_checksum: sha1:a07f790e3025d3ee0e923b9fb9bcde93f9d3ccdb
-    pristine_git_object: d1c81bc2b1785ba081576e06cd534dfbe76cd8ee
+    last_write_checksum: sha1:1cd8aef35e54b7628ed7090459d75119ad3649be
+    pristine_git_object: 09b1213de9b50480b11f495639deb885201bfac9
   src/Cloudinary/Account/Provisioning/Models/Components/UpdateRolePrincipal.cs:
     id: 3fd689747662
-    last_write_checksum: sha1:2dcf6cd59c437adb3b1d07579a0560834c498ba3
-    pristine_git_object: 5bcf39dbc6355d852e89d57705e6d3b7bb7b75e9
+    last_write_checksum: sha1:d848f5218ca1df56944ade4c9ac418969aac9b34
+    pristine_git_object: 22a58a2d862ce98717a093757f94f3e5f1ad20ca
   src/Cloudinary/Account/Provisioning/Models/Components/UpdateRolePrincipalPolicyParameters.cs:
     id: 84d7634632c8
-    last_write_checksum: sha1:bce96ae3de4c629299530c54f15605a74bab5f9a
-    pristine_git_object: 8e2b1366c6f3e63f67bc670ec82d81c59ef4f266
+    last_write_checksum: sha1:e2f64a883ae976a8540907dedc216086793fe201
+    pristine_git_object: 7fd7a259839c5d520d7d7ea1e9c6ad45521dc377
   src/Cloudinary/Account/Provisioning/Models/Components/UpdateRolePrincipalsRequest.cs:
     id: 2b7e05ea020e
-    last_write_checksum: sha1:13f718fe7905d9d8b90d6c660c02abc9a70d5866
-    pristine_git_object: 65dd1e7f0a198b651a5005ca58e3a470f8386429
+    last_write_checksum: sha1:4626f8c288bda0ccd7155049058437182dc00a1b
+    pristine_git_object: 6d74619f4dd12486e64219fd0554527ad27577d8
   src/Cloudinary/Account/Provisioning/Models/Components/User.cs:
     id: fdeb0c287925
-    last_write_checksum: sha1:91b3b20365805e2d6440a292cfbcaaecad40b42c
-    pristine_git_object: a0735202909f4d85d15a0e4722274bda8bd293f6
+    last_write_checksum: sha1:6975e0f658902453469577bc4b297f4ed7082cf0
+    pristine_git_object: a5ec8ab68981a68ebf1b087400c42f5cb4e607a1
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroup.cs:
     id: 2f657b00dc98
-    last_write_checksum: sha1:2d5022c8d5576e4604c42cd2c190fbb072c62362
-    pristine_git_object: 75362afbe11f561b5cd011aa57f06af323331d0c
+    last_write_checksum: sha1:0e12c37b4e3f1dd8c8a943bdaa2c61ed98735832
+    pristine_git_object: 808ff4a248fea7ecb5d70bc5988ac5a45c1cc70c
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupRequest.cs:
     id: 629163bc70f3
-    last_write_checksum: sha1:f1ed370adeef8cd551c1b92e7df6672d64011d11
-    pristine_git_object: 2941e7ca4d57c0c69ad1354ab4fb4e23668592cb
+    last_write_checksum: sha1:65a183f8d5af75494262c7d8a21c3b28ca389c4a
+    pristine_git_object: 381e896b541912376b25df003266b1a9e66a8bf5
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupSummary.cs:
     id: e74cc6ffbfc2
-    last_write_checksum: sha1:fa6f177d8f7e6ada42ee4df915081f763841a137
-    pristine_git_object: 97eae22f3ef9ce46f4a95658bd6d06c21707be88
+    last_write_checksum: sha1:5498183fd296b35b8fa4a2997049a6edc73f2115
+    pristine_git_object: 48461672aa5135d6d93e859681296a1984711861
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupUser.cs:
     id: a168357b5198
-    last_write_checksum: sha1:ba6698547a6336c9cbc4f0f38f15a54422f8cec5
-    pristine_git_object: be777a42fdca35217bbe82e869f5434bd7892373
+    last_write_checksum: sha1:9772779c4360aeaf70db79f5bdecc1138d5f359c
+    pristine_git_object: e4df444b33baac0726790f94cf8d2829a57642ec
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupUsersResponse.cs:
     id: 1ae6ae48dda8
-    last_write_checksum: sha1:c11faf3a2817dbf3d24755cf7519b3d8f9284815
-    pristine_git_object: 1d20fd6dbf051fbd9ab232cc88b50493d8db2e6a
+    last_write_checksum: sha1:668195d4a5b8dd32f1af923358d95e47d5d5de8b
+    pristine_git_object: 2ded5b0724ab6cadea6786a2344cf91fa5a4dc8a
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupsListResponse.cs:
     id: 58e2167cc110
-    last_write_checksum: sha1:0039f740b55633dacf6751f582ec038e02a27610
-    pristine_git_object: eba165a27cd3ed698a7c07267d95c1f9af63fd6b
+    last_write_checksum: sha1:dd0e71e118e72866038e209f961ea07ddfa5303c
+    pristine_git_object: e4e5ccb987573fe83b0606a9d146c603ee3421bb
   src/Cloudinary/Account/Provisioning/Models/Components/UserGroupsResponse.cs:
     id: 1141c8c00840
-    last_write_checksum: sha1:42cf1f532f9e364b3a1534219b2cbe73370362d5
-    pristine_git_object: d3f32f5bd02e564af24c0f59fc4b9e9cd61777ba
+    last_write_checksum: sha1:0e94dd2e106556295f4f37b1531bcd970d4b0748
+    pristine_git_object: 36ad6374b0f994896f99c7f4476c08fceb84ec15
   src/Cloudinary/Account/Provisioning/Models/Components/UserRequest.cs:
     id: f26c307a9d64
-    last_write_checksum: sha1:9e400f1c5c66ffe94c45986dbb2acaa43452563d
-    pristine_git_object: f77836fb2f94bc261f5c75812163a13372ce3293
+    last_write_checksum: sha1:b192ccd896248cf3ef8291e85a8f2c10f712e706
+    pristine_git_object: 27ad53e18c219ee73477fef3f4004cf5813ac920
   src/Cloudinary/Account/Provisioning/Models/Components/UserRequestRole.cs:
     id: c3d0ad1bb0f5
-    last_write_checksum: sha1:df549402bacece399185ad39991eb591092b188d
-    pristine_git_object: f0ae434dccf1590b3fa4cdfaaaceab42a1277d61
+    last_write_checksum: sha1:84527c15137d13b0c5fe15f6ad7ac5d4857fca7a
+    pristine_git_object: 9ccb2ec02554d0f83d2fcea3d965502c7cc31b50
   src/Cloudinary/Account/Provisioning/Models/Components/UserSubAccountsResponse.cs:
     id: 99af4a35d815
-    last_write_checksum: sha1:721e0b70e80c40cf7543d124be5e74a31a14bd40
-    pristine_git_object: 5974805cc30bdc9470683cc749897721a90c10ce
+    last_write_checksum: sha1:681997329a178b67e1e69fbe1f7c278e39d79302
+    pristine_git_object: bb687674427bd976f5f17f2d0e5649b803cc9de4
   src/Cloudinary/Account/Provisioning/Models/Components/UsersResponse.cs:
     id: 0a0d567ab4c3
-    last_write_checksum: sha1:53f4babe139e46882124b107706446477b3a031b
-    pristine_git_object: d2f9aaa9661d99b69ce3400bd5a107859dcdd3c6
+    last_write_checksum: sha1:095e100e01bd406cf6396e607a29d0261e6022c7
+    pristine_git_object: 462a64937b794f5a39d3070a8f55053e34ba45f6
   src/Cloudinary/Account/Provisioning/Models/Components/ValidateCedarPolicyRequest.cs:
     id: a36b66927381
-    last_write_checksum: sha1:7f3a4a858f52837ab660f23cb8c798c089b50b22
-    pristine_git_object: dbba80b80d57098e4023e18757c00105f96d8325
+    last_write_checksum: sha1:b77f1c586797e6da254306f0ed685fb8f676d735
+    pristine_git_object: 0c5d742f703e078f71e7e356a545cf23de22e170
   src/Cloudinary/Account/Provisioning/Models/Components/ValidateCedarPolicyResponse.cs:
     id: 531ca139a386
-    last_write_checksum: sha1:8253461e239a40a9239b87bbf9a12695dc246c20
-    pristine_git_object: 6bf1e224945bd7cbfbbf608bab4ec04901e565a7
+    last_write_checksum: sha1:c566a2142b8306061e2cb74296e7594164589051
+    pristine_git_object: c5d6f8248b7ec326a8977d1a423c0651e5824786
   src/Cloudinary/Account/Provisioning/Models/Errors/APIException.cs:
     id: 8cbddd5e504a
-    last_write_checksum: sha1:e09eb8eabd3f2b7ac87c06b92b491b21b2d6ab12
-    pristine_git_object: fe73a18b48da7d41b68799b9fdee20644a44e9f3
+    last_write_checksum: sha1:515bd9cc6ee44735b906b264dbaf2ae12bc3947c
+    pristine_git_object: 7d2d410fe82544f0b70816d333d9f70fbf4fa792
   src/Cloudinary/Account/Provisioning/Models/Errors/CldProvisioningException.cs:
     id: eb377ccdd3d8
-    last_write_checksum: sha1:3705a1d63cd4706eb559fab5420d5c8972a71915
-    pristine_git_object: 08b226f2ebcbc33303b8845afd39c118aad73498
+    last_write_checksum: sha1:35ad4bc5aa01192116c498a39adcf52f45b807e8
+    pristine_git_object: 44769bbea015bf29d9bbdabcad35568468496f61
   src/Cloudinary/Account/Provisioning/Models/Errors/ErrorResponse.cs:
     id: ab417d365211
-    last_write_checksum: sha1:8bd11db617119e668ad61ebc8ed2e595a64abd2a
-    pristine_git_object: 2a8b4582a5d999a2002af70d9068d56eabbc4315
+    last_write_checksum: sha1:a5aa6fac13803dbecc63dcb82e6f574406851f84
+    pristine_git_object: 13e17cc7588afed7138306072662c96c1627fa46
   src/Cloudinary/Account/Provisioning/Models/Errors/PermissionsErrorResponse.cs:
     id: ead8e7dae6fa
-    last_write_checksum: sha1:f07121cba16f26797b258a358c2232e7a3f88dc2
-    pristine_git_object: 72cce3b92c4d7b585c54d8621696deafc8458178
+    last_write_checksum: sha1:7711b84f2c5b7c62f732ae492be86d8ff240a0d7
+    pristine_git_object: dcdbac8860efafddc0f7580780b271cd1e0a4947
   src/Cloudinary/Account/Provisioning/Models/Errors/ResponseValidationException.cs:
     id: ec4d51198245
-    last_write_checksum: sha1:b63406f26b1032bfcf9eae5b03b73dd31d60fda4
-    pristine_git_object: d9c7fb8534f62de5469696a7f26c4d8cb8f8683a
+    last_write_checksum: sha1:d4e9acc18c441e10731e50b93f6a4e9591d21ac9
+    pristine_git_object: ef924e03e28b1aac5c46bfc8f8f507f01fa0898f
   src/Cloudinary/Account/Provisioning/Models/Requests/AddUserToUserGroupRequest.cs:
     id: 8b54d5204368
-    last_write_checksum: sha1:c911b73c62270842b928186e9f3de1046a1900d5
-    pristine_git_object: 8cc3a9e08b448804357b76b54b7232acafe3f079
+    last_write_checksum: sha1:22e71cec0053ee2437289f59d4b4c5ab91707192
+    pristine_git_object: 359d1a3b962875749f029b329b9f688fa01b72d7
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateCustomPolicyRequest.cs:
     id: 5159791dd5c6
-    last_write_checksum: sha1:7d9f821044b472927f38b45b774fbf3c8a1e77ca
-    pristine_git_object: 1efc49f261ccfd17fa752e10c438bd10819ecb75
+    last_write_checksum: sha1:61863afb80773a43eda40794183c9babeb252425
+    pristine_git_object: 51bce0085fd9fe8c297a77bd7f0c7cef87ad42c1
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateProductEnvironmentRequest.cs:
     id: 80650597a815
-    last_write_checksum: sha1:988b13e29a4f253d946ec78ffd44dd25ea940606
-    pristine_git_object: 4ef1cf75d335848e36328fc050be60bf73e9e362
+    last_write_checksum: sha1:1b94f4da6e9485442c2f8e982a96dab1e2fe4a8e
+    pristine_git_object: c53f5fd9f0e6ca6492a690fd2254d274e21b5967
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateRoleRequest.cs:
     id: 8b90bbd1fe02
-    last_write_checksum: sha1:5da28c2b97b5e7dbfcf5b55638e8119a0ebdac53
-    pristine_git_object: 3e464e1ffabb81ac84af57ff220e09840cde5151
+    last_write_checksum: sha1:d9929dcec09b9635083916d1c18b96dad6806859
+    pristine_git_object: 30c3b8c8d988c43ecd2693c4d4e661f81e125070
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateUserGroupRequest.cs:
     id: 6c41692d82bf
-    last_write_checksum: sha1:2790374155b40812b7177133b02ea8a5968bb508
-    pristine_git_object: aadd81a8c209f3c148c2f47b8f53c3fda5314156
+    last_write_checksum: sha1:2058bd2f21ba7e68bc25d9d3e0bb6764183230a9
+    pristine_git_object: d860b4d414187a722624c69c22ad1ef744cdb74a
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateUserRequest.cs:
     id: 69db574dca38
-    last_write_checksum: sha1:78c7fe5f9bdd5c23b28b8cbc02d3a5e6e228a86b
-    pristine_git_object: 1b0f8110b9d744b9e72ec726ffecc1ca1640aa42
+    last_write_checksum: sha1:fa833e318b99efbbb8c856a0012c98d41ee13f9c
+    pristine_git_object: 3b7d34d42e2a69a47dab068bc896b5a32cac9200
   src/Cloudinary/Account/Provisioning/Models/Requests/CreateUserRequestBody.cs:
     id: 713de380f6e7
-    last_write_checksum: sha1:2ed06ecd291e95e8a81d38fbed90dfd5dec181cf
-    pristine_git_object: 1a562bfda4683a2096a593dce3b1ed6808c4e5e2
+    last_write_checksum: sha1:efd27915d010a777ffb68eb75b198e52bb98b009
+    pristine_git_object: 01b89102a5054b92810058fa5d1122c78920c967
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteAccessKeyByNameRequest.cs:
     id: bd9b30708f72
-    last_write_checksum: sha1:b35ff39052845fe09d88c02d05769cc582b444bd
-    pristine_git_object: 2bdfa251fec536fac0dbb54aa91ee727a906ae10
+    last_write_checksum: sha1:7dea42e1326ff42ba6abe0c5f55feff3f8d20536
+    pristine_git_object: 9c1ba9f4cb888df348754a0c747528016e95f239
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteAccessKeyRequest.cs:
     id: d5d35858e9c4
-    last_write_checksum: sha1:f77d67b44f66a9689e90a177a1e87681283a4b6c
-    pristine_git_object: 31733f4403c73cf0be985bc60d6ec9ce15160823
+    last_write_checksum: sha1:d85a566a558e7b607fe9c2382fc523c0afacc71e
+    pristine_git_object: ae603860d33d2b9404bd3fb8d71258baaa035e6f
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteCustomPolicyRequest.cs:
     id: 0b6fe485538e
-    last_write_checksum: sha1:f9e4c3f5826b0245e13e97a8fcc9c6d4d38196ba
-    pristine_git_object: c8e5019791e8dcca1d3f7e1b1cf1e650a0eb2e24
+    last_write_checksum: sha1:63742ee894178c612fb2404bbb676fe06c886a92
+    pristine_git_object: 6525ce0216bf00c2eaa04dc51b1b9da6c83eb2f1
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteProductEnvironmentRequest.cs:
     id: 1824a49336c2
-    last_write_checksum: sha1:731e462623cf85e743e86594ecbdb6a54cdc24de
-    pristine_git_object: 94ca186b37add5a174e55f3bef021b316367213f
+    last_write_checksum: sha1:d77a3cbc2f1ab941fe43e05b9ef125924897d40c
+    pristine_git_object: f1325993cf4fb0409fe34c700467e04c6c7b4640
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteRoleRequest.cs:
     id: 893abfe2da78
-    last_write_checksum: sha1:5c40724d2330480fafd1051bdf57a02aeadb16bd
-    pristine_git_object: 36b6664d0a7f0a8eff509eb7fdadaff738933b17
+    last_write_checksum: sha1:7c70bca353afdafebd42f380773fa82f1f1be670
+    pristine_git_object: ee78ed09e62b3c42c376a8eb7176100465233d65
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteUserGroupRequest.cs:
     id: 3b88acc06700
-    last_write_checksum: sha1:f7187fee2959be6e03acb731788cac060059605e
-    pristine_git_object: ffaf4cdd2b710ad4868a67a8d28bd427cf6f120e
+    last_write_checksum: sha1:da8e7eb5295f662c2d458e50d038051ae3ffaa5a
+    pristine_git_object: 8ee5206c34bd4c77ccb63f59061d8d04b61e8a43
   src/Cloudinary/Account/Provisioning/Models/Requests/DeleteUserRequest.cs:
     id: 20821a07aadd
-    last_write_checksum: sha1:1fdf1871310cf2e2ee4969211ea12efb9237ce11
-    pristine_git_object: df9e64933a28b700e88ec7b072766fce6599d580
+    last_write_checksum: sha1:0601b0ee368c2972c858ee3a2325c4a84f3f1348
+    pristine_git_object: f1d40aff1524adcec3b3317e946539f48e67ffe8
   src/Cloudinary/Account/Provisioning/Models/Requests/GenerateAccessKeyRequest.cs:
     id: 03704d14cff9
-    last_write_checksum: sha1:e19a6c010478d40196a95443e6fdfd3f5e416a2a
-    pristine_git_object: 15162f4d5a7240d9960578177d737972592a8297
+    last_write_checksum: sha1:bc9e2229ca8fd9f0524da873b7f063df03000b5f
+    pristine_git_object: e6b5a4fb9fed167a33c5446cd94160fa5acbdd54
   src/Cloudinary/Account/Provisioning/Models/Requests/GetAccessKeysRequest.cs:
     id: 724bc719b63e
-    last_write_checksum: sha1:be11159e9e3c9203cb3f13e302b33bffc370dc24
-    pristine_git_object: 76ff9abcca8fec248584addeb51b4643c26d3eaf
+    last_write_checksum: sha1:163cb220e07f2a712ae91f9d445376d39d76f95c
+    pristine_git_object: 58a23ea86ed80d2d3778dee1e2b7a5de37918282
   src/Cloudinary/Account/Provisioning/Models/Requests/GetBillingUsageRequest.cs:
     id: 081d1809cbd1
-    last_write_checksum: sha1:2d463e6e0797db3339073d375dbc0d3747c68412
-    pristine_git_object: 614a69b4bc53e9acee67697624a02000159b0ba6
+    last_write_checksum: sha1:d29b7748b0ee0ab8b005bc85ccd42c7fd3a094e4
+    pristine_git_object: 171616e67fb2bfb72200c6638bf5024b942aa87c
   src/Cloudinary/Account/Provisioning/Models/Requests/GetCustomPoliciesRequest.cs:
     id: 379db82fa818
-    last_write_checksum: sha1:1f4915579de90417939fe8c5828ed4a74525616c
-    pristine_git_object: 271532dea7b0473df4c355a7b35eb5a45707f907
+    last_write_checksum: sha1:4ae4e703704b2d74676e8882bede1f520d9a0053
+    pristine_git_object: 01de867339a9a967742c9a01205379d3b96f5677
   src/Cloudinary/Account/Provisioning/Models/Requests/GetCustomPolicyRequest.cs:
     id: 22058b95f018
-    last_write_checksum: sha1:664f207e6ddf74465914aa949cf3d84b2af5a0b6
-    pristine_git_object: eaf4a99fb23e8e378d43492d0d29ffe121f76097
+    last_write_checksum: sha1:53f90651ba7220af8d413dc5f7088d4364023be8
+    pristine_git_object: 543582a6bf13ceb0d91ff23ae480fa29e54a658e
   src/Cloudinary/Account/Provisioning/Models/Requests/GetEffectivePoliciesRequest.cs:
     id: d8f7779804b3
-    last_write_checksum: sha1:55c25bf6eba68da431715bfeaa75b7d7d81f95f4
-    pristine_git_object: e5965d703d76b37c65c88b1ea6300878a0709bfe
+    last_write_checksum: sha1:198a9d4612838dc1d0bb4430b57bac1e19cce594
+    pristine_git_object: 34013010b1a08f07d7e7d57759ea380b7a284bfc
   src/Cloudinary/Account/Provisioning/Models/Requests/GetGroupsForUserRequest.cs:
     id: 8fe01fa6559e
-    last_write_checksum: sha1:525bde4285020a4d23b379d5e96adaf15242b7ee
-    pristine_git_object: 11d66038f3198b9a6c63c6b3df235da7a231c742
+    last_write_checksum: sha1:011c7c4b053f86d52688057e9b95fb964d45e12d
+    pristine_git_object: 4c03a931afae250dda224034e0c6935f14da04a4
   src/Cloudinary/Account/Provisioning/Models/Requests/GetPrincipalRolesRequest.cs:
     id: 8fbd5374828d
-    last_write_checksum: sha1:5c03bbe291ae7c57ffbf13daef348894ac2b05d8
-    pristine_git_object: 62a499e96af6b6712e314ef5be1b6a8b3bf7eef9
+    last_write_checksum: sha1:5503bfe97ca4b70bc5a01bf8560c42869f28000a
+    pristine_git_object: e21dc88ce48968dcf9e09610c7052e113cc6dba9
   src/Cloudinary/Account/Provisioning/Models/Requests/GetProductEnvironmentRequest.cs:
     id: 310ab4ba4cd7
-    last_write_checksum: sha1:6b7d3a094369e734902020d6807c26cbfd873d7f
-    pristine_git_object: b3cd71bee2654970dddd1cdefe9a5ff452b8c15f
+    last_write_checksum: sha1:a49e8646b02c99408d1d0ce3845d158889f07a48
+    pristine_git_object: 92a91a0873253dfd4fc4750273a2cf8f9e88e8d6
   src/Cloudinary/Account/Provisioning/Models/Requests/GetProductEnvironmentsRequest.cs:
     id: 93c4dc61699e
-    last_write_checksum: sha1:ea2e4f2ab36ac48269f39e54d15d39b06b566ed9
-    pristine_git_object: 518f927fe3dca0d27dcccfb5a71732c58439643c
+    last_write_checksum: sha1:fe7e5daa90b9bb545590ae7f54deb6f79fa5aa42
+    pristine_git_object: edc36740a19c0a82f4a65f43fdf1733e5353f722
   src/Cloudinary/Account/Provisioning/Models/Requests/GetRolePrincipalsRequest.cs:
     id: 337e9b1fd6ba
-    last_write_checksum: sha1:830db4bcb66d574558df492b617017af72e3efa9
-    pristine_git_object: e43fd2e77c8ee14abf32a0cf565ac37aa5b6bb4d
+    last_write_checksum: sha1:55622467684ac6c64ad5f8b6d407b765b83559bd
+    pristine_git_object: 020a42ac4f19f21d0429cadb8729c24b176e603e
   src/Cloudinary/Account/Provisioning/Models/Requests/GetRoleRequest.cs:
     id: ccd9fb093063
-    last_write_checksum: sha1:ecf6bc9faa7f129fa7aace457fa8d0dc85fa9d90
-    pristine_git_object: 9ec4013a290fd3f13585c996828210ac74651131
+    last_write_checksum: sha1:f1c87c3473160059c06e60088cf8d2519dd28298
+    pristine_git_object: 7d0b3574d73229b724de047b988b57310a1f99ba
   src/Cloudinary/Account/Provisioning/Models/Requests/GetRolesRequest.cs:
     id: a09dafaa95e7
-    last_write_checksum: sha1:c91b277dc0949c95eca483274181bda2464a85ea
-    pristine_git_object: 9408eaf4d2c22726ad015d05ba0d1bb34182f397
+    last_write_checksum: sha1:ffb782ca45750466a3b119a19789a02c79a8c4e8
+    pristine_git_object: 20fc318223382752695d21408602ed0c4fca6fa9
   src/Cloudinary/Account/Provisioning/Models/Requests/GetSubAccountsForUserRequest.cs:
     id: 952e26aeb060
-    last_write_checksum: sha1:5ca71c3c7f4143514f56f9b946f435adb8905b04
-    pristine_git_object: ea19364fb2f7bfe29417dc4a6515521724c2c960
+    last_write_checksum: sha1:5a29536c5e1a6b1e41aa2e65d530188623213eb2
+    pristine_git_object: 8f03c6975d9fbc86c2416c7968a636cbcb1ae343
   src/Cloudinary/Account/Provisioning/Models/Requests/GetSystemPoliciesRequest.cs:
     id: c86884da931f
-    last_write_checksum: sha1:6e98005e5f4459349e2a66756821347f31991365
-    pristine_git_object: 0527e3706652fe5cce39d731fdc8683b70f9a786
+    last_write_checksum: sha1:a04afa1389166d5b87349788d26681c49c048fc6
+    pristine_git_object: 9d4ac7baaa9103044ab0a9aace94c1543819dd31
   src/Cloudinary/Account/Provisioning/Models/Requests/GetUserGroupRequest.cs:
     id: 87c6abcaf685
-    last_write_checksum: sha1:0f61f7cd16c27adc6fc782f92b5302e798f7924e
-    pristine_git_object: 5515c815677fa9a680358a5dd8f4b04d5475f306
+    last_write_checksum: sha1:db6aa78c3ce3d47825a4efa0830a26e23ec3a40e
+    pristine_git_object: 0050ce0811884c2c6e71cd9857be19613d9e2c3f
   src/Cloudinary/Account/Provisioning/Models/Requests/GetUserGroupsRequest.cs:
     id: 2b47d919ba3f
-    last_write_checksum: sha1:c2197b184e7708807fa9bf8b316c8cceb2756501
-    pristine_git_object: 8140743df237d94c1f77f0ddd1c520df2ca9410f
+    last_write_checksum: sha1:5d91eed58d2a0f8327f979535299e6a03fef7d27
+    pristine_git_object: 9fd9f19e694e0cb2ec7bbb97e90b1455ccd91c3a
   src/Cloudinary/Account/Provisioning/Models/Requests/GetUserRequest.cs:
     id: a7e9a8247dc9
-    last_write_checksum: sha1:31da14425b34608e3b5b2b562f8e6a130100eabf
-    pristine_git_object: ab51a5764642a3a9be4491832ff547629df4c516
+    last_write_checksum: sha1:ffe48abcca506582569a0ccabb07695672446d56
+    pristine_git_object: b04ba33ce2f355e92e621359d0fd37072c149880
   src/Cloudinary/Account/Provisioning/Models/Requests/GetUsersInUserGroupRequest.cs:
     id: fb0d1dd9d9af
-    last_write_checksum: sha1:0fc6f873d296d677dfb624d979c645cabf4029a7
-    pristine_git_object: 3c374d26ab42bcd1f6f39fc4a8448e828ee03213
+    last_write_checksum: sha1:1345a810b5d537d44fac69d89673d15d7a912b31
+    pristine_git_object: a0b19681283acf11ec4322302ada65b71e9e9238
   src/Cloudinary/Account/Provisioning/Models/Requests/GetUsersRequest.cs:
     id: 1a08db101e31
-    last_write_checksum: sha1:fdd9158e1f07c011aa344b09c6032089056c57c7
-    pristine_git_object: b19ea991c016e7fa91ffb2a7cc9d69207cdd1574
+    last_write_checksum: sha1:20f45ed8c19663b66992ad4c81865c823dce7486
+    pristine_git_object: f4b6ed842a52abfd8fe6de4f11628974619bfc6b
   src/Cloudinary/Account/Provisioning/Models/Requests/InspectMultipleRequest.cs:
     id: 9fa5189da824
-    last_write_checksum: sha1:7b198ab1b26f5c1ce038fc6c73b05c5c84c6f811
-    pristine_git_object: 49a5ab1f7d6091c5eb762cbde6e7b1d93bd16651
+    last_write_checksum: sha1:9c7c9e0f2f5d82925045a6d5f3f5f0b860e4680b
+    pristine_git_object: fb41021d5afe23cd2a835f13fb29f7d506cab079
   src/Cloudinary/Account/Provisioning/Models/Requests/InspectRequest.cs:
     id: 82eb9afa1b7c
-    last_write_checksum: sha1:1ec2d5bff3ffe979f5737f99a3b8b0e19ebd1b7f
-    pristine_git_object: 416fcd421689f90cc912b7329e323404bc0148d9
+    last_write_checksum: sha1:f5dbea3d60ea9ede85a39c82c370958488a537eb
+    pristine_git_object: 997e86c4766052aa7644c85fd65fbb18a35d091b
   src/Cloudinary/Account/Provisioning/Models/Requests/QueryParamSortBy.cs:
     id: 09b424decaaa
-    last_write_checksum: sha1:140cea8988f1df0d82b630eb156fb1b7ba44d419
-    pristine_git_object: 523f424de032560eefd8c9c64955313c2874ce00
+    last_write_checksum: sha1:b696caa35a051a4122fe46387af9f7a8d260e6ca
+    pristine_git_object: d7f72702bc8a5ec6a8dc0fd9fbe135ee5b8c8d64
   src/Cloudinary/Account/Provisioning/Models/Requests/QueryParamSortOrder.cs:
     id: 25a083b17b5f
-    last_write_checksum: sha1:8b28784b41dd9197e2d8013fbeb02b36f4b86055
-    pristine_git_object: 9cfe1d165810c5f58036ee3b2189142ef6d53be8
+    last_write_checksum: sha1:8f2380a254e675cab5ca1b482048bb0e3245c654
+    pristine_git_object: c9cc6f0b46bd468f788167b28f7a47198cb29332
   src/Cloudinary/Account/Provisioning/Models/Requests/RemoveUserFromUserGroupRequest.cs:
     id: 5cb7849acc8e
-    last_write_checksum: sha1:4deefae4c1fa406699c3d1153244a8a62c4b820b
-    pristine_git_object: 7fa21289e9dd98d437cf749e21ec3a2b366e281d
+    last_write_checksum: sha1:3ec2bdbeb60d27b33860bec3b91b04607840c53e
+    pristine_git_object: 343daa01b4c7022b3eb5ad2191331978cee25978
   src/Cloudinary/Account/Provisioning/Models/Requests/Role.cs:
     id: 701ecf1bf05e
-    last_write_checksum: sha1:d2e81c44c352fd62a1ea1f5368fa39155f655285
-    pristine_git_object: 488cde70def939f94028e0363904980048c74f33
+    last_write_checksum: sha1:1bbab2eddfb361526be74ebdc6d2929e10d15656
+    pristine_git_object: 645beadba6f9127116413fc4fd3597f6a5827f30
   src/Cloudinary/Account/Provisioning/Models/Requests/SortBy.cs:
     id: 0904fa8c5d99
-    last_write_checksum: sha1:6461d16f1b0ee00845024e653ce4a35714bb2fbd
-    pristine_git_object: bfc5422cf246e2faa6c3fe8e0f1403195fd1f263
+    last_write_checksum: sha1:400b611f4eef59a687650f5d8227cbd0ee175cfe
+    pristine_git_object: c26a8fd5998c349b123d0fcf4e4c2c3393330696
   src/Cloudinary/Account/Provisioning/Models/Requests/SortOrder.cs:
     id: 9eeddf290cf1
-    last_write_checksum: sha1:4df498386464bbd0cc13264ac79181cc2228a341
-    pristine_git_object: c91529ce938c9db45d67918b6a631e55f3b73ece
+    last_write_checksum: sha1:1573c8e2e3abb26e2236e388a4ec9aefc40f2af7
+    pristine_git_object: 416681f410ef90e8f82957cdcd490df96e01bf79
   src/Cloudinary/Account/Provisioning/Models/Requests/UnionType.cs:
     id: 1b735b63cd0f
-    last_write_checksum: sha1:60ceb05465296ed7eabc01a919ad2acb841cc145
-    pristine_git_object: dcbeeeca4918bb93123c04ae636e6a3f9414571e
+    last_write_checksum: sha1:010a76969afa21f20805977a6cdcd2f5647fd160
+    pristine_git_object: 3c2f1045a243b39a67a539ba6700b571f5a30a47
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateAccessKeyRequest.cs:
     id: 87e0d29df7c6
-    last_write_checksum: sha1:2cc0ba6d9ce33440d3e8f91500ba30e47549aaf7
-    pristine_git_object: 7745806cf6f1c3dbd54283bad1e83888c79ecfc2
+    last_write_checksum: sha1:04d21ed0816df55552a8598273899cd991286ef6
+    pristine_git_object: 2e031dadf13b429e43368b0267371e783f4eca07
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateCustomPolicyRequest.cs:
     id: 4d57296fbec7
-    last_write_checksum: sha1:ae0a730b178baf18a849704927c67272e8034fd0
-    pristine_git_object: f914383fa928f0087b4c727324fe4c06d91b4956
+    last_write_checksum: sha1:1f3e834192db64bb8c516e0711f1df27bdd67394
+    pristine_git_object: a476f48ac399e456cc73dbe7b01da307b1d4a0bf
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdatePrincipalRolesRequest.cs:
     id: 32d61889008c
-    last_write_checksum: sha1:2ebb0b597e6cca6c7c9047db3394c564a4536345
-    pristine_git_object: e9723a7d67505e85d4bed2ca998524658c794799
+    last_write_checksum: sha1:fb7d816520244fa40efaf45c8b345887fac18838
+    pristine_git_object: 6ab1ed8184034bc013cbf2a8b6cab7e5c8f3a11d
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateProductEnvironmentRequest.cs:
     id: b35d8d3745f7
-    last_write_checksum: sha1:73e3db1335d58a28d8f049aefa602717f6cb6cd9
-    pristine_git_object: e09599892052b1ad5e40fc4f20804dfea2420398
+    last_write_checksum: sha1:103c2e1d7e8496694d78f050eb8ac407e5cb28f3
+    pristine_git_object: 32f9de67e00afd3ccb1d6d1afdfa4da07329d877
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateRolePrincipalsRequest.cs:
     id: 7cd939bf9699
-    last_write_checksum: sha1:331945221d0236c0d8207bb5088117f7e544cee6
-    pristine_git_object: 7aeb447616908f468c36516c64f9fed6bbab138c
+    last_write_checksum: sha1:67dff542d2573988e2900bc6aa98340177b90b03
+    pristine_git_object: 86ec7e80fa261037584fbf044a4143280304d523
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateRoleRequest.cs:
     id: 7ceaf603b4d7
-    last_write_checksum: sha1:43b32a6c6a305816dc42798ebc6b1ba84474ccd0
-    pristine_git_object: bea0df606cc96ae4a8fbf0cfe0bf870f33ae84dc
+    last_write_checksum: sha1:392d048068122470e2b0404d485c7d5fbd758ee3
+    pristine_git_object: 37d35dd54ddf51e30cf2eefe5180eca71bddc81c
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateUserGroupRequest.cs:
     id: 6501fcb3866b
-    last_write_checksum: sha1:5d65cc22e1a9df04d572d2ff4ce93a8c7a1efc10
-    pristine_git_object: f653348aff50c943606a41c4f942847d33c6015f
+    last_write_checksum: sha1:d595c85727915222de82afbb1eca0eb3255336eb
+    pristine_git_object: 99ac4481d637bda7d49df24d05fe640ca66c3a69
   src/Cloudinary/Account/Provisioning/Models/Requests/UpdateUserRequest.cs:
     id: a27598e1a28f
-    last_write_checksum: sha1:3025cc7911c82cfd154272d13583a851727b745d
-    pristine_git_object: 594fa82f30e2701608da86a35c5c928ef78c6a0d
+    last_write_checksum: sha1:d5093204ae1879a9d7f22ed30c5f5d96e7201b4d
+    pristine_git_object: 233a6a76c8b0c1a18c8feb89d3f1d7f0bdb0fe98
   src/Cloudinary/Account/Provisioning/Principals.cs:
     id: 1473d4590b66
-    last_write_checksum: sha1:b2b6bf7039b7b7ab70602983f1d357c1a5a43e84
-    pristine_git_object: 7180d14db32cffac23f2777af1b01476863d7f69
+    last_write_checksum: sha1:552302a213b5cf93ba09ed6e50d5d336dfcf8abf
+    pristine_git_object: 11f83444ac25a484dede21ac7847550d3a250f37
   src/Cloudinary/Account/Provisioning/ProductEnvironments.cs:
     id: f214d1ae5f48
-    last_write_checksum: sha1:afff1e78c1ba319da0bff8528c1f7c2691d64cb9
-    pristine_git_object: d9851fa97a0ba4727b5f0a36d14cce9e7b0e7181
+    last_write_checksum: sha1:443fb6862abaa3975a0c8bf59528c65cc73f3365
+    pristine_git_object: 630bd209359bc86011ea127ea9e8748dd5000e6d
   src/Cloudinary/Account/Provisioning/Public.cs:
     id: 767fd9374d3f
-    last_write_checksum: sha1:0c288a1e7303c6720b29352111a63f5f2011449b
-    pristine_git_object: 34f96cbfdbfc45a94716fefeb96893190b3df7f3
+    last_write_checksum: sha1:d9f0b8ab1b434247c52f0d7d80324157826d75db
+    pristine_git_object: 04abbf43797969fb0fef53bab81dc38b0a7cf72a
   src/Cloudinary/Account/Provisioning/Roles.cs:
     id: 07fea4793965
-    last_write_checksum: sha1:1b8dd4a8bc00f6000d3a776a2905e991f7726465
-    pristine_git_object: 3c32b292ecc3c2a2dc51acfb3cc03e5b25544dbe
+    last_write_checksum: sha1:95087023a672e6a513d2a1418a33dce5a4034625
+    pristine_git_object: d44e8abf2dde0b8f27453ca4a1ff49622546ae0f
   src/Cloudinary/Account/Provisioning/SDKConfig.cs:
     id: 84b148a05aad
-    last_write_checksum: sha1:bf953769b3145fe08faf9a6574227363e5c2af54
-    pristine_git_object: adcc55bf00c678f2cfcfbafa5ac00e8813943d76
+    last_write_checksum: sha1:d5e465fedbf58451d89543003ad62f445c0af53c
+    pristine_git_object: cebcb61f7070e5e2025a897146442f50ce59e9d1
   src/Cloudinary/Account/Provisioning/SystemPolicies.cs:
     id: eead746a90af
-    last_write_checksum: sha1:de5080ea73d379df2b05c818a0ed783e3c60229f
-    pristine_git_object: 64f7e08952657a9a5d83167d0c76e031df06c92e
+    last_write_checksum: sha1:1cae7209b83b71250e91859fd4c56ecd56e15220
+    pristine_git_object: 8ee6bd7743976d39fd58bb4c32cca696b1ca50c1
   src/Cloudinary/Account/Provisioning/UserGroups.cs:
     id: a96b06965d49
-    last_write_checksum: sha1:dec906398baac639e38e386daa0c4df0caaaa8de
-    pristine_git_object: 9183604c8dafcf211239d7a6d67457a96d182731
+    last_write_checksum: sha1:aa311eabf1856aad161f450b70c62d38d4d22d61
+    pristine_git_object: fbf65da356a5b45a12f853a52c58f15017b83e12
   src/Cloudinary/Account/Provisioning/Users.cs:
     id: 74dae02ec4ec
-    last_write_checksum: sha1:f08825f5636dffa0c95925df896df1e5a3389c9a
-    pristine_git_object: 66fd2bd4f6f0091161573dd0d2ac914aa7f1b828
+    last_write_checksum: sha1:0bb11dc5d24ed37cadb4f839f180d4a2e03d93a7
+    pristine_git_object: b6f6a1f10d774313119f2ee5df19aaab052b0446
   src/Cloudinary/Account/Provisioning/Utils/AnyDeserializer.cs:
     id: 8261f6593602
-    last_write_checksum: sha1:2bf5fe4fb939ca580d390e1a913b32608278af8e
-    pristine_git_object: f9289ada165beaa200f42021b65256161f47a90f
+    last_write_checksum: sha1:3d3bcecf623b2f5fc9a5af43f7f884eec5b568f8
+    pristine_git_object: 41336654a4d98d30c755b35bfa29a5d2eaad10ad
   src/Cloudinary/Account/Provisioning/Utils/BigIntStrConverter.cs:
     id: bed529dcbebd
-    last_write_checksum: sha1:ff84492782f051b5ccd0a2cf96eee03aa6625a8b
-    pristine_git_object: fcc137bc35e2d974443ac7119286e4216d00978a
+    last_write_checksum: sha1:2a8e69cef0961438996ecad05f2f97fe45fe6d87
+    pristine_git_object: 98ab034b7d71bfe6e30964bbcbb0720b66f5874d
   src/Cloudinary/Account/Provisioning/Utils/CldProvisioningHttpClient.cs:
     id: 7ac1c0678f6d
-    last_write_checksum: sha1:bf68390b0134c28df6b2e09cad5078f1770f2ba8
-    pristine_git_object: 65f58654dce9d3ac273f42bd6b4ecdccc421df8b
+    last_write_checksum: sha1:999463fea3ab1245e5fb16247fec8757c5172d41
+    pristine_git_object: babc07e4816bb191ad3c9e64720dbd19e0ef35e0
   src/Cloudinary/Account/Provisioning/Utils/Constants.cs:
     id: 5fb4075a270f
-    last_write_checksum: sha1:00fe7ae1e63e6b3953cc23414aa793e54fcb21cc
-    pristine_git_object: 65779679c022f1468efec3ca5463fd403820f402
+    last_write_checksum: sha1:5229741628c307c4519e0536a06b4567bdc10c9d
+    pristine_git_object: 7e24cd9e6afae696c62ddc03c899ee4ebed470e6
   src/Cloudinary/Account/Provisioning/Utils/DecimalStrConverter.cs:
     id: b82ada40611f
-    last_write_checksum: sha1:2cb859977cda5688deeeb8378e42da0d51891f3d
-    pristine_git_object: 6e5e0e1534e0084d76144f33b63cbde18785d105
+    last_write_checksum: sha1:ff3ead22dd96d5ebcb5c7466479d510f4aa99f8d
+    pristine_git_object: cfa6598f1dd5ae542ff408bbd53345f9e768277f
   src/Cloudinary/Account/Provisioning/Utils/EnumConverter.cs:
     id: 1e75b383787a
-    last_write_checksum: sha1:70d5fa0c58ca789cbf12c0a9c719cc6c5c6af0fa
-    pristine_git_object: f0be9a25d6752111e84e25c988ccfd4fd7a2d4b8
+    last_write_checksum: sha1:4174d385e34304912cb86e6f1db408229288b5fc
+    pristine_git_object: b3171c0ab7f2cdc8146ab412b4b9467ade50313c
   src/Cloudinary/Account/Provisioning/Utils/FlexibleObjectDeserializer.cs:
     id: 545aec5a79bc
-    last_write_checksum: sha1:9c6c3c9c0489bd4b41e37de44414e8709d96647b
-    pristine_git_object: 5aa0669a69511a056a142ec15899ebf3c5ca8f20
+    last_write_checksum: sha1:bdfad61895b7c947d90f59fe9964cb429953ed38
+    pristine_git_object: b66386a74d317d8031b58aa1e2ee7b41b8621ab2
   src/Cloudinary/Account/Provisioning/Utils/HeaderSerializer.cs:
     id: eaaa54c200c1
-    last_write_checksum: sha1:89cd5228080946effc5179cdb757d6564fb5ea47
-    pristine_git_object: 7d3d5d865a8c14bc20b3c3f5beebe30bcd6ef121
+    last_write_checksum: sha1:e58022eace567a6b973e0c3f1cf06f7f612b14eb
+    pristine_git_object: 58e4d8edb9bf03d23413b83b6e68fb94074763ed
   src/Cloudinary/Account/Provisioning/Utils/IsoDateTimeSerializer.cs:
     id: 94a375fac625
-    last_write_checksum: sha1:883886dd9cd6eea5af01b7be747a4746618f9082
-    pristine_git_object: 4988b3d97126caa5d1cb2a11303f4fc845c9f428
+    last_write_checksum: sha1:da00d20ede5f9d33498f99348c66f38992556b03
+    pristine_git_object: 97286126c95e035617664ac57f451a0b99d19d02
   src/Cloudinary/Account/Provisioning/Utils/OpenEnumConverter.cs:
     id: aacc843cad73
-    last_write_checksum: sha1:b5fc01682bf2eb37dac891d5fcd4c8b2b37224ac
-    pristine_git_object: fed9fc7ebc32ab5e007b3d9f736b44fc29c45960
+    last_write_checksum: sha1:bd8c6fd7df400e6dfb6c8df048ce761b4156ff57
+    pristine_git_object: 6a2d9d5eacd9880f7b83d93f9e345a4c327e41da
   src/Cloudinary/Account/Provisioning/Utils/RequestBodySerializer.cs:
     id: 8ee6239215be
-    last_write_checksum: sha1:de8433b578d15270c885b4f51c547e1a76c956cf
-    pristine_git_object: 140e45027a14f5af9a62cebba45f41ee4ee7777d
+    last_write_checksum: sha1:ee858bbf6002f496466a737351d5e2217217a6c0
+    pristine_git_object: 16c482e9ddb61eabb3d7ec4414b9c7f4e737d188
   src/Cloudinary/Account/Provisioning/Utils/ResponseBodyDeserializer.cs:
     id: 73a49a4d60f8
-    last_write_checksum: sha1:55e10a34f46fd59681c5b763460dc8e36a9a6c6b
-    pristine_git_object: 5314bc437ae1b49b5d1ea7b2ca2f4e5b58a01dd3
+    last_write_checksum: sha1:e5175383106878f4a6d8394026b0ba872ad47848
+    pristine_git_object: 7320870625541c9677934811f21f0de63c5aeb6a
   src/Cloudinary/Account/Provisioning/Utils/Retries/BackoffStrategy.cs:
     id: c141e563111a
-    last_write_checksum: sha1:47574056d7e0a7673b34e9154d03b9e32218747f
-    pristine_git_object: 48e113f54bd9d4db68f620a6ad6f152809abf3fd
+    last_write_checksum: sha1:5db95a5605d49a951b270ae1978d0097f23ad6d3
+    pristine_git_object: 5d9a2136b7929cd3a471fc880c1bae40f9481d90
   src/Cloudinary/Account/Provisioning/Utils/Retries/Retries.cs:
     id: 61fdaa9d6a74
-    last_write_checksum: sha1:6aa62406a42777433a656efab08016fea2862402
-    pristine_git_object: 8edfb4c53423b708471884db45b62f8fa59abdf6
+    last_write_checksum: sha1:175b26cf299705d5768cdd7cdc5dc35d81b7b39f
+    pristine_git_object: 90b752ea878ca990eea0f01bdf9990ea0beb1ea5
   src/Cloudinary/Account/Provisioning/Utils/Retries/RetryConfig.cs:
     id: 8e6bf478f2dd
-    last_write_checksum: sha1:c5deea9a83aece471e76ceaa2065d513d8e41a21
-    pristine_git_object: e16ffe64d435facfdd1299e89060df079878e51e
+    last_write_checksum: sha1:70383456703075484b37b9e4db746a05aed02006
+    pristine_git_object: 4d683af287fe7de3fc8e34fe807c76efa6a03c3d
   src/Cloudinary/Account/Provisioning/Utils/SecurityMetadata.cs:
     id: 402e50bfe0d9
-    last_write_checksum: sha1:b9865caa894a3eec2b6ebcea03bdbf604f6e8b0c
-    pristine_git_object: 724cad937b77c32d85f6f5134c46d96e3d75d806
+    last_write_checksum: sha1:f72689c80040bd1f5b0b970efc14c41448c9cdd9
+    pristine_git_object: a16570924fab2bea8657746e6903851e63aa5644
   src/Cloudinary/Account/Provisioning/Utils/SpeakeasyMetadata.cs:
     id: 2fff331a8247
-    last_write_checksum: sha1:e57ce275e17b34734a408396a486a1402bbecced
-    pristine_git_object: 4225f52e507f12f91fa1449c0ada5a2fbe4daa05
+    last_write_checksum: sha1:71116bc370894dc0887b3cdaab6382e7c60b5b25
+    pristine_git_object: df4c517e1737f2a5f8f9de41f90df58e74838379
   src/Cloudinary/Account/Provisioning/Utils/URLBuilder.cs:
     id: 6e10170aaa4e
-    last_write_checksum: sha1:8167e43b2ae9671c4a7b84e6ec5034b15c276c4e
-    pristine_git_object: ccf7bead6079f5b30454aa163eb152c85d9dfe74
+    last_write_checksum: sha1:685557550c22d708a87f4a7c0b6791f6528771df
+    pristine_git_object: 6cd6c3124ed257db1719cfe01763130e47bdd500
   src/Cloudinary/Account/Provisioning/Utils/Utilities.cs:
     id: d825771a2642
-    last_write_checksum: sha1:1dd15606de6ce4f11a5d5eebaf638ca1ab16fafa
-    pristine_git_object: dbd01bfde3ad9ae7c269a505e855956e91297e44
+    last_write_checksum: sha1:65e5318abf5b33fa80664432cde30b9307563c32
+    pristine_git_object: d12b8559499372c2c6f69592a2a19a63d7c78f97
 examples:
   getProductEnvironments:
     speakeasy-default-get-product-environments:

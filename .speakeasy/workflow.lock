@@ -14,7 +14,7 @@ targets:
         sourceRevisionDigest: sha256:e2fd5f6aa6b9fa1e5db8e0b8730ab4ba03eab339533987917f9fcd1b17b98d27
         sourceBlobDigest: sha256:ab6edeae93ec2d1ec61d5a5e88231cc8c57e93b249c107c193b82f7f750f8808
         codeSamplesNamespace: cloudinary-provisioning-csharp-code-samples
-        codeSamplesRevisionDigest: sha256:6e77ac8d47303aed0cbe0d30253d93069d12734124b300e4bf96df6b6e3f00f6
+        codeSamplesRevisionDigest: sha256:b4cb36bcdf1e962cc21e60f342e3cf230b523975a5334b6ff02da57b9b99bdb3
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
