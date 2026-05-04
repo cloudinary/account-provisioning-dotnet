@@ -1,0 +1,10 @@
+# PrincipalRolesInspectData
+
+
+## Fields
+
+| Field                                                                     | Type                                                                      | Required                                                                  | Description                                                               | Example                                                                   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `Type`                                                                    | [PrincipalTypeEnum](../../Models/Components/PrincipalTypeEnum.md)         | :heavy_check_mark:                                                        | The type of principal.                                                    | user                                                                      |
+| `Id`                                                                      | *string*                                                                  | :heavy_check_mark:                                                        | The unique identifier of the principal.                                   |                                                                           |
+| `Roles`                                                                   | List<[PrincipalRolesData](../../Models/Components/PrincipalRolesData.md)> | :heavy_check_mark:                                                        | N/A                                                                       |                                                                           |

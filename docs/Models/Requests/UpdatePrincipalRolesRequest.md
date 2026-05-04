@@ -1,0 +1,9 @@
+# UpdatePrincipalRolesRequest
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `AccountId`                                                                                             | *string*                                                                                                | :heavy_minus_sign:                                                                                      | Account ID                                                                                              |
+| `UpdatePrincipalRolesRequestValue`                                                                      | [Models.Components.UpdatePrincipalRolesRequest](../../Models/Components/UpdatePrincipalRolesRequest.md) | :heavy_check_mark:                                                                                      | Principal and roles details.                                                                            |

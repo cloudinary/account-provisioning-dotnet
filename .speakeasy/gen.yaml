@@ -1,0 +1,70 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: CldProvisioning
+  maintainOpenAPIOrder: true
+  usageSnippets:
+    optionalPropertyRendering: withExample
+    sdkInitStyle: constructor
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: true
+    nameResolutionFeb2025: false
+    parameterOrderingFeb2024: true
+    requestResponseComponentNamesFeb2024: true
+    securityFeb2025: true
+    sharedErrorComponentsApr2025: true
+    sharedNestedComponentsJan2026: true
+    nameOverrideFeb2026: true
+  auth:
+    oAuth2ClientCredentialsEnabled: true
+    oAuth2PasswordEnabled: false
+    hoistGlobalSecurity: true
+  inferSSEOverload: true
+  sdkHooksConfigAccess: true
+  schemas:
+    allOfMergeStrategy: shallowMerge
+  requestBodyFieldName: ""
+  versioningStrategy: automatic
+  persistentEdits: {}
+  tests:
+    generateTests: false
+    generateNewTests: true
+    skipResponseBodyAssertions: false
+csharp:
+  version: 0.1.0
+  additionalDependencies: []
+  author: Cloudinary
+  baseErrorName: CldProvisioningException
+  clientServerStatusCodesAsErrors: true
+  defaultErrorName: APIException
+  description: Cloudinary Account Provisioning API .NET SDK.
+  disableNamespacePascalCasingApr2024: true
+  dotnetVersion: net8.0
+  enableCancellationToken: true
+  enableFormatting: true
+  enableSourceLink: false
+  envVarPrefix: CLOUDINARY
+  flattenGlobalSecurity: true
+  flatteningOrder: parameters-first
+  httpClientPrefix: ""
+  imports:
+    option: openapi
+    paths:
+      callbacks: Models/Callbacks
+      errors: Models/Errors
+      operations: Models/Requests
+      shared: Models/Components
+      webhooks: Models/Webhooks
+  includeDebugSymbols: false
+  inferUnionDiscriminators: true
+  inputModelSuffix: input
+  maxMethodParams: 4
+  methodArguments: infer-optional-args
+  multipartArrayFormat: standard
+  outputModelSuffix: output
+  packageName: Cloudinary.Account.Provisioning
+  packageTags: cloudinary account provisioning sdk api client dotnet
+  respectTitlesForPrimitiveUnionMembers: true
+  responseFormat: flat
+  sourceDirectory: src
+  useNodatime: false

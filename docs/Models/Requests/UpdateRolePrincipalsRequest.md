@@ -1,0 +1,10 @@
+# UpdateRolePrincipalsRequest
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `AccountId`                                                                                             | *string*                                                                                                | :heavy_minus_sign:                                                                                      | Account ID                                                                                              |
+| `RoleId`                                                                                                | *string*                                                                                                | :heavy_check_mark:                                                                                      | A unique identifier for the role.                                                                       |
+| `UpdateRolePrincipalsRequestValue`                                                                      | [Models.Components.UpdateRolePrincipalsRequest](../../Models/Components/UpdateRolePrincipalsRequest.md) | :heavy_check_mark:                                                                                      | Principals details.                                                                                     |
