@@ -23,7 +23,7 @@ namespace Cloudinary.Account.Provisioning.Utils
         /// <summary>
         /// The version of the SDK.
         /// </summary>
-        public const string SdkVersion = "0.1.1";
+        public const string SdkVersion = "0.1.0";
 
         /// <summary>
         /// The version of the SDK generator used to create this SDK.
