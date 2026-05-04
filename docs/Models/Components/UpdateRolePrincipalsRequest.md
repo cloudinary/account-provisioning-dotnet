@@ -1,0 +1,9 @@
+# UpdateRolePrincipalsRequest
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             | Example                                                                                 |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `Operation`                                                                             | [OperationEnum](../../Models/Components/OperationEnum.md)                               | :heavy_minus_sign:                                                                      | Specifies the operation to perform. Use `add` to associate or `remove` to disassociate. | add                                                                                     |
+| `Principals`                                                                            | List<[UpdateRolePrincipal](../../Models/Components/UpdateRolePrincipal.md)>             | :heavy_minus_sign:                                                                      | N/A                                                                                     |                                                                                         |

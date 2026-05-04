@@ -1,0 +1,16 @@
+# ProductEnvironment
+
+Product Environment
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `CloudName`                                                                           | *string*                                                                              | :heavy_minus_sign:                                                                    | N/A                                                                                   |
+| `Name`                                                                                | *string*                                                                              | :heavy_minus_sign:                                                                    | The cloud name of the product environment.                                            |
+| `Enabled`                                                                             | *bool*                                                                                | :heavy_minus_sign:                                                                    | Whether the product environment is enabled or disabled.                               |
+| `Id`                                                                                  | *string*                                                                              | :heavy_minus_sign:                                                                    | The ID of the product environment.                                                    |
+| `ApiAccessKeys`                                                                       | List<[ApiAccessKey](../../Models/Components/ApiAccessKey.md)>                         | :heavy_minus_sign:                                                                    | The list of the product environment's access keys.                                    |
+| `CreatedAt`                                                                           | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0) | :heavy_minus_sign:                                                                    | The date when the product environment was created.                                    |
+| `UpdatedAt`                                                                           | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0) | :heavy_minus_sign:                                                                    | The date when the product environment was last updated.                               |
