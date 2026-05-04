@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <PackageId>Cloudinary.Account.Provisioning</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <TargetFramework>net8.0</TargetFramework>
     <Authors>Cloudinary</Authors>
     <Copyright>Copyright (c) Cloudinary 2026</Copyright>
