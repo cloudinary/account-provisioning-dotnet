@@ -66,7 +66,7 @@ namespace Cloudinary.Account.Provisioning
     }
 
     /// <summary>
-    /// Cloudinary Account Provisioning API: Accounts with provisioning API access can create and manage their **product environments**, **users** and **user groups** using the RESTful Provisioning API.<br/>
+    /// Cloudinary Account Provisioning API: Accounts with provisioning API access can create and manage their **product environments**, **users** and **user groups** using the RESTful Provisioning API. <br/>
     /// <br/>
     /// Provisioning API access is available <a href="https://cloudinary.com/contact?plan=enterprise">upon request</a> for accounts on an <a href="https://cloudinary.com/pricing#pricing-enterprise">Enterprise plan</a>.<br/>
     /// <br/>
@@ -130,7 +130,7 @@ namespace Cloudinary.Account.Provisioning
         /// <summary>
         /// All roles include one or more predefined **system policies**, and can be applied to principals to enforce these policies.<br/>
         /// <br/>
-        /// You can **manage custom roles**, where you select the system policies.<br/>
+        /// You can **manage custom roles**, where you select the system policies. <br/>
         /// <br/>
         /// You can **view system roles**, which contain a fixed set of system policies and are provided by Cloudinary.
         /// </summary>
@@ -143,7 +143,7 @@ namespace Cloudinary.Account.Provisioning
     }
 
     /// <summary>
-    /// Cloudinary Account Provisioning API: Accounts with provisioning API access can create and manage their **product environments**, **users** and **user groups** using the RESTful Provisioning API.<br/>
+    /// Cloudinary Account Provisioning API: Accounts with provisioning API access can create and manage their **product environments**, **users** and **user groups** using the RESTful Provisioning API. <br/>
     /// <br/>
     /// Provisioning API access is available <a href="https://cloudinary.com/contact?plan=enterprise">upon request</a> for accounts on an <a href="https://cloudinary.com/pricing#pricing-enterprise">Enterprise plan</a>.<br/>
     /// <br/>

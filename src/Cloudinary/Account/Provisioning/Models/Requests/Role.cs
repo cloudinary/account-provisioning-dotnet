@@ -15,8 +15,9 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
     using System;
 
     /// <summary>
-    /// The role to assign.
+    /// The legacy role to assign. Deprecated: use `roles` (create) or `role_management` (update) instead. Can't be combined with `roles` or `role_management`.
     /// </summary>
+    [Obsolete("Use `roles` (create) or `role_management` (update) instead.")]
     public enum Role
     {
         [JsonProperty("master_admin")] MasterAdmin,
@@ -27,6 +28,7 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         [JsonProperty("media_library_admin")] MediaLibraryAdmin,
         [JsonProperty("media_library_user")] MediaLibraryUser,
     }
+#pragma warning disable 0618
 
     public static class RoleExtension
     {
@@ -60,4 +62,5 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
             throw new Exception($"Unknown value {value} for enum Role");
         }
     }
+#pragma warning restore 0618
 }

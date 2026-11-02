@@ -30,7 +30,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         public List<Principal> Principals { get; set; } = default!;
 
         [JsonProperty("policy_parameters")]
-        public InspectRequestPolicyParameters? PolicyParameters { get; set; }
+        public Dictionary<string, object>? PolicyParameters { get; set; }
 
         [JsonProperty("cursor")]
         public string? Cursor { get; set; }

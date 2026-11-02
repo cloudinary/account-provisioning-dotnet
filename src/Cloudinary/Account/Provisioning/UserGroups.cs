@@ -35,7 +35,7 @@ namespace Cloudinary.Account.Provisioning
         /// </remarks>
         /// <param name="accountId">Account ID.</param>
         /// <param name="extendedDetails">
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
@@ -84,7 +84,7 @@ namespace Cloudinary.Account.Provisioning
         /// <param name="groupId">The ID of the user group.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="extendedDetails">
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
@@ -246,7 +246,7 @@ namespace Cloudinary.Account.Provisioning
         /// </remarks>
         /// <param name="accountId">Account ID.</param>
         /// <param name="extendedDetails">
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
@@ -523,7 +523,7 @@ namespace Cloudinary.Account.Provisioning
         /// <param name="groupId">The ID of the user group.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="extendedDetails">
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>

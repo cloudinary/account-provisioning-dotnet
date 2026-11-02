@@ -11,13 +11,23 @@
 namespace Cloudinary.Account.Provisioning.Models.Components
 {
     using Cloudinary.Account.Provisioning.Utils;
+    using Newtonsoft.Json;
 
     /// <summary>
-    /// For roles with `permission_type` set to `content`, this defines the type of content the role's policies apply to:<br/>
-    /// - The content type can be: `folder_id` or `collection_id`.<br/>
-    /// - When assigning the role, provide the instance, e.g. `{"folder_id":"asdfjkl12347890"}`. This specification is passed to the `policy_statement` (Cedar).
+    /// Optional content-scope policy parameters.
     /// </summary>
     public class PolicyParameters
     {
+        /// <summary>
+        /// The folder ID the role is scoped to.
+        /// </summary>
+        [JsonProperty("folder_id")]
+        public string? FolderId { get; set; }
+
+        /// <summary>
+        /// The collection ID the role is scoped to.
+        /// </summary>
+        [JsonProperty("collection_id")]
+        public string? CollectionId { get; set; }
     }
 }

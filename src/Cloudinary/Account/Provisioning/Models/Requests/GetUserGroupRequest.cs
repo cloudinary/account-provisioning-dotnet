@@ -27,7 +27,7 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         public string GroupId { get; set; } = default!;
 
         /// <summary>
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </summary>
         [SpeakeasyMetadata("queryParam:style=form,explode=true,name=extended_details")]

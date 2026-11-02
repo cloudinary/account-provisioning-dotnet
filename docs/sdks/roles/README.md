@@ -4,7 +4,7 @@
 
 All roles include one or more predefined **system policies**, and can be applied to principals to enforce these policies.
 
-You can **manage custom roles**, where you select the system policies.
+You can **manage custom roles**, where you select the system policies. 
 
 You can **view system roles**, which contain a fixed set of system policies and are provided by Cloudinary.
 
@@ -411,7 +411,7 @@ var sdk = new CldProvisioning(
 
 var res = await sdk.Roles.UpdateAsync(
     roleId: "<id>",
-    role: new Cloudinary.Account.Provisioning.Models.Components.Role() {
+    updateRole: new UpdateRole() {
         Name = "Upload manager",
         Description = "Responsible for managing upload presets and uploading new assets.",
         SystemPolicyIds = new List<string>() {
@@ -441,7 +441,7 @@ var sdk = new CldProvisioning(
 
 var res = await sdk.Roles.UpdateAsync(
     roleId: "<id>",
-    role: new Cloudinary.Account.Provisioning.Models.Components.Role() {
+    updateRole: new UpdateRole() {
         Name = "Upload manager",
         Description = "Responsible for managing upload presets and uploading new assets.",
         SystemPolicyIds = new List<string>() {
@@ -471,7 +471,7 @@ var sdk = new CldProvisioning(
 
 var res = await sdk.Roles.UpdateAsync(
     roleId: "<id>",
-    role: new Cloudinary.Account.Provisioning.Models.Components.Role() {
+    updateRole: new UpdateRole() {
         Name = "Upload manager",
         Description = "Responsible for managing upload presets and uploading new assets.",
         SystemPolicyIds = new List<string>() {
@@ -501,7 +501,7 @@ var sdk = new CldProvisioning(
 
 var res = await sdk.Roles.UpdateAsync(
     roleId: "<id>",
-    role: new Cloudinary.Account.Provisioning.Models.Components.Role() {
+    updateRole: new UpdateRole() {
         Name = "Upload manager",
         Description = "Responsible for managing uploads and uploading new assets.",
         SystemPolicyIds = new List<string>() {
@@ -516,11 +516,11 @@ var res = await sdk.Roles.UpdateAsync(
 
 ### Parameters
 
-| Parameter                                                 | Type                                                      | Required                                                  | Description                                               |
-| --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| `RoleId`                                                  | *string*                                                  | :heavy_check_mark:                                        | A unique identifier for the role.                         |
-| `Role`                                                    | [Models.Components.Role](../../Models/Components/Role.md) | :heavy_check_mark:                                        | Role details                                              |
-| `AccountId`                                               | *string*                                                  | :heavy_minus_sign:                                        | Account ID                                                |
+| Parameter                                           | Type                                                | Required                                            | Description                                         |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| `RoleId`                                            | *string*                                            | :heavy_check_mark:                                  | A unique identifier for the role.                   |
+| `UpdateRole`                                        | [UpdateRole](../../Models/Components/UpdateRole.md) | :heavy_check_mark:                                  | Role details                                        |
+| `AccountId`                                         | *string*                                            | :heavy_minus_sign:                                  | Account ID                                          |
 
 ### Response
 
@@ -688,7 +688,9 @@ await sdk.Roles.UpdatePrincipalsAsync(
                 PrincipalType = PrincipalTypeEnum.User,
                 PrincipalId = "1234abc",
                 ScopeId = "975l29lz02jt0836fhwi",
-                PolicyParameters = new UpdateRolePrincipalPolicyParameters() {},
+                PolicyParameters = new Dictionary<string, object>() {
+
+                },
             },
         },
     }
@@ -721,7 +723,9 @@ await sdk.Roles.UpdatePrincipalsAsync(
                 PrincipalType = PrincipalTypeEnum.User,
                 PrincipalId = "1234abc",
                 ScopeId = "975l29lz02jt0836fhwi",
-                PolicyParameters = new UpdateRolePrincipalPolicyParameters() {},
+                PolicyParameters = new Dictionary<string, object>() {
+
+                },
             },
         },
     }

@@ -10,9 +10,11 @@
 #nullable enable
 namespace Cloudinary.Account.Provisioning.Models.Requests
 {
+    using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Models.Requests;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
@@ -33,10 +35,11 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         public string Email { get; set; } = default!;
 
         /// <summary>
-        /// The role to assign.
+        /// The legacy role to assign. Deprecated: use `roles` (create) or `role_management` (update) instead. Can't be combined with `roles` or `role_management`.
         /// </summary>
+        [Obsolete("This field will be removed in a future release, please migrate away from it as soon as possible")]
         [JsonProperty("role")]
-        public Models.Requests.Role? Role { get; set; }
+        public Role? Role { get; set; }
 
         /// <summary>
         /// A list of product environment IDs that this user can access. Ignored if the role is `master_admin`.<br/>
@@ -50,5 +53,11 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         /// </summary>
         [JsonProperty("enabled")]
         public bool? Enabled { get; set; }
+
+        /// <summary>
+        /// The roles to assign. Can't be sent together with `role`.
+        /// </summary>
+        [JsonProperty("roles")]
+        public List<RoleAssignment>? Roles { get; set; }
     }
 }

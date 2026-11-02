@@ -101,11 +101,11 @@ namespace Cloudinary.Account.Provisioning
         /// Update the details of a user.
         /// </remarks>
         /// <param name="userId">The ID of the user.</param>
-        /// <param name="userRequest">User details to update.</param>
+        /// <param name="requestBody">User details to update.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>User details.</returns>
-        /// <exception cref="ArgumentNullException">One of <paramref name="userId"/> or <paramref name="userRequest"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">One of <paramref name="userId"/> or <paramref name="requestBody"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
@@ -113,7 +113,7 @@ namespace Cloudinary.Account.Provisioning
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public Task<User> UpdateAsync(
             string userId,
-            UserRequest userRequest,
+            UpdateUserRequestBody requestBody,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         );
@@ -620,11 +620,11 @@ namespace Cloudinary.Account.Provisioning
         /// Update the details of a user.
         /// </remarks>
         /// <param name="userId">The ID of the user.</param>
-        /// <param name="userRequest">User details to update.</param>
+        /// <param name="requestBody">User details to update.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>User details.</returns>
-        /// <exception cref="ArgumentNullException">One of <paramref name="userId"/> or <paramref name="userRequest"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">One of <paramref name="userId"/> or <paramref name="requestBody"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
@@ -632,17 +632,17 @@ namespace Cloudinary.Account.Provisioning
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public async Task<User> UpdateAsync(
             string userId,
-            UserRequest userRequest,
+            UpdateUserRequestBody requestBody,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         )
         {
             if (userId == null) throw new ArgumentNullException(nameof(userId));
-            if (userRequest == null) throw new ArgumentNullException(nameof(userRequest));
+            if (requestBody == null) throw new ArgumentNullException(nameof(requestBody));
 
             var request = new UpdateUserRequest() {
                 UserId = userId,
-                UserRequest = userRequest,
+                RequestBody = requestBody,
                 AccountId = accountId,
             };
             request.AccountId ??= SDKConfiguration.AccountId;
@@ -658,7 +658,7 @@ namespace Cloudinary.Account.Provisioning
                 httpRequest.Headers.Add("Accept", "application/json");
             }
 
-            var serializedBody = RequestBodySerializer.Serialize(request, "UserRequest", "json", false, false);
+            var serializedBody = RequestBodySerializer.Serialize(request, "RequestBody", "json", false, false);
             if (serializedBody != null)
             {
                 httpRequest.Content = serializedBody;

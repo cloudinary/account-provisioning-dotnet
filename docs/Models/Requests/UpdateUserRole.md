@@ -1,13 +1,15 @@
-# UserRequestRole
+# ~~UpdateUserRole~~
 
-The role to assign.
+The legacy role to assign. Deprecated: use `roles` (create) or `role_management` (update) instead. Can't be combined with `roles` or `role_management`.
+
+> :warning: **DEPRECATED**: Use `roles` (create) or `role_management` (update) instead..
 
 ## Example Usage
 
 ```csharp
-using Cloudinary.Account.Provisioning.Models.Components;
+using Cloudinary.Account.Provisioning.Models.Requests;
 
-var value = UserRequestRole.MasterAdmin;
+var value = UpdateUserRole.MasterAdmin;
 ```
 
 

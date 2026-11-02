@@ -22,7 +22,7 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         public string? AccountId { get; set; }
 
         /// <summary>
-        /// Whether to only return enabled product environments (true) or disabled product environments (false).<br/>
+        /// Whether to only return enabled product environments (true) or disabled product environments (false). <br/>
         /// **Default**: all product environments are returned (both enabled and disabled).
         /// </summary>
         [SpeakeasyMetadata("queryParam:style=form,explode=true,name=enabled")]

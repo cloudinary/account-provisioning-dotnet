@@ -13,6 +13,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
     using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class UpdateRolePrincipal
     {
@@ -38,6 +39,6 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         /// For roles with `permission_type` set to `content`, provide the ID of the specific folder or collection you want the role to apply to, for example, `{"folder_id":"asdfjkl12347890"}`. This specification is passed to the `policy_statement`, written in Cedar language.
         /// </summary>
         [JsonProperty("policy_parameters")]
-        public UpdateRolePrincipalPolicyParameters? PolicyParameters { get; set; }
+        public Dictionary<string, object>? PolicyParameters { get; set; }
     }
 }
