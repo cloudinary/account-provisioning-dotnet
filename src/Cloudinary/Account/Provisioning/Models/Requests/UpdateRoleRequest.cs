@@ -31,6 +31,6 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         /// Role details.
         /// </summary>
         [SpeakeasyMetadata("request:mediaType=application/json")]
-        public Models.Components.Role Role { get; set; } = default!;
+        public UpdateRole UpdateRole { get; set; } = default!;
     }
 }

@@ -10,9 +10,9 @@
 #nullable enable
 namespace Cloudinary.Account.Provisioning.Models.Components
 {
-    using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class PermissionsError
     {
@@ -38,6 +38,6 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         /// Additional contextual information about the error, which may include relevant data.
         /// </summary>
         [JsonProperty("details")]
-        public Details? Details { get; set; }
+        public Dictionary<string, object>? Details { get; set; }
     }
 }

@@ -10,9 +10,9 @@
 #nullable enable
 namespace Cloudinary.Account.Provisioning.Models.Components
 {
-    using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class RoleToManage
     {
@@ -32,6 +32,6 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         /// Defines the content instance that the role applies to. Specify the content type (`folder_id` or `collection_id`) and its corresponding ID. For example, `{"folder_id":"asdfjkl12347890"}`. This specification is passed to the `policy_statement` (Cedar).
         /// </summary>
         [JsonProperty("policy_parameters")]
-        public RoleToManagePolicyParameters? PolicyParameters { get; set; }
+        public Dictionary<string, object>? PolicyParameters { get; set; }
     }
 }

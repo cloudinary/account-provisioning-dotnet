@@ -58,7 +58,7 @@ namespace Cloudinary.Account.Provisioning
                 },
             };
             AccountId = null;
-            UserAgent = "speakeasy-sdk/csharp 0.1.0 2.881.17 0.2.1 Cloudinary.Account.Provisioning";
+            UserAgent = "speakeasy-sdk/csharp 0.2.0 2.954.8 0.2.2 Cloudinary.Account.Provisioning";
             SecuritySource = null;
             Hooks = new SDKHooks();
             RetryConfig = null;

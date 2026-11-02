@@ -27,7 +27,7 @@ namespace Cloudinary.Account.Provisioning
     /// <summary>
     /// All roles include one or more predefined **system policies**, and can be applied to principals to enforce these policies.<br/>
     /// <br/>
-    /// You can **manage custom roles**, where you select the system policies.<br/>
+    /// You can **manage custom roles**, where you select the system policies. <br/>
     /// <br/>
     /// You can **view system roles**, which contain a fixed set of system policies and are provided by Cloudinary.
     /// </summary>
@@ -98,11 +98,11 @@ namespace Cloudinary.Account.Provisioning
         /// *Note:* Updating a role with a name that already exists will trigger a 409 error.
         /// </remarks>
         /// <param name="roleId">A unique identifier for the role.</param>
-        /// <param name="role">Role details.</param>
+        /// <param name="updateRole">Role details.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>An awaitable task that returns a <see cref="RoleResponse"/> object when completed.</returns>
-        /// <exception cref="ArgumentNullException">One of <paramref name="roleId"/> or <paramref name="role"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">One of <paramref name="roleId"/> or <paramref name="updateRole"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
@@ -110,7 +110,7 @@ namespace Cloudinary.Account.Provisioning
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public Task<RoleResponse> UpdateAsync(
             string roleId,
-            Models.Components.Role role,
+            UpdateRole updateRole,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         );
@@ -191,7 +191,7 @@ namespace Cloudinary.Account.Provisioning
     /// <summary>
     /// All roles include one or more predefined **system policies**, and can be applied to principals to enforce these policies.<br/>
     /// <br/>
-    /// You can **manage custom roles**, where you select the system policies.<br/>
+    /// You can **manage custom roles**, where you select the system policies. <br/>
     /// <br/>
     /// You can **view system roles**, which contain a fixed set of system policies and are provided by Cloudinary.
     /// </summary>
@@ -645,11 +645,11 @@ namespace Cloudinary.Account.Provisioning
         /// *Note:* Updating a role with a name that already exists will trigger a 409 error.
         /// </remarks>
         /// <param name="roleId">A unique identifier for the role.</param>
-        /// <param name="role">Role details.</param>
+        /// <param name="updateRole">Role details.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>An awaitable task that returns a <see cref="RoleResponse"/> object when completed.</returns>
-        /// <exception cref="ArgumentNullException">One of <paramref name="roleId"/> or <paramref name="role"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">One of <paramref name="roleId"/> or <paramref name="updateRole"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
@@ -657,17 +657,17 @@ namespace Cloudinary.Account.Provisioning
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public async Task<RoleResponse> UpdateAsync(
             string roleId,
-            Models.Components.Role role,
+            UpdateRole updateRole,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         )
         {
             if (roleId == null) throw new ArgumentNullException(nameof(roleId));
-            if (role == null) throw new ArgumentNullException(nameof(role));
+            if (updateRole == null) throw new ArgumentNullException(nameof(updateRole));
 
             var request = new UpdateRoleRequest() {
                 RoleId = roleId,
-                Role = role,
+                UpdateRole = updateRole,
                 AccountId = accountId,
             };
             request.AccountId ??= SDKConfiguration.AccountId;
@@ -683,7 +683,7 @@ namespace Cloudinary.Account.Provisioning
                 httpRequest.Headers.Add("Accept", "application/json");
             }
 
-            var serializedBody = RequestBodySerializer.Serialize(request, "Role", "json", false, false);
+            var serializedBody = RequestBodySerializer.Serialize(request, "UpdateRole", "json", false, false);
             if (serializedBody != null)
             {
                 httpRequest.Content = serializedBody;

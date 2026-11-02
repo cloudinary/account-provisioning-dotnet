@@ -23,16 +23,16 @@ namespace Cloudinary.Account.Provisioning.Utils
         /// <summary>
         /// The version of the SDK.
         /// </summary>
-        public const string SdkVersion = "0.1.0";
+        public const string SdkVersion = "0.2.0";
 
         /// <summary>
         /// The version of the SDK generator used to create this SDK.
         /// </summary>
-        public const string SdkGenVersion = "2.881.17";
+        public const string SdkGenVersion = "2.954.8";
 
         /// <summary>
         /// The version of the OpenAPI document used to generate this SDK.
         /// </summary>
-        public const string OpenApiDocVersion = "0.2.1";
+        public const string OpenApiDocVersion = "0.2.2";
     }
 }

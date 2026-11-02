@@ -22,7 +22,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         public string? Name { get; set; }
 
         /// <summary>
-        /// Whether to only return extended (true) or basic information about the group (false).<br/>
+        /// Whether to only return extended (true) or basic information about the group (false). <br/>
         /// **Default**: false.
         /// </summary>
         [JsonProperty("extended_details")]

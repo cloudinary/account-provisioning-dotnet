@@ -85,7 +85,7 @@ var sdk = new CldProvisioning(
     }
 );
 
-var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() {
+var res = await sdk.CustomPolicies.CreateAsync(createCustomPolicy: new CreateCustomPolicy() {
     PolicyStatement = @"permit(principal == Cloudinary::APIKey::\""1234\"",action==Cloudinary::Action::\""read\"",resource is Cloudinary::Folder ) when {resource.ancestor_ids.contains(\""asdfjkl12347890\"")} ;
     ",
     Description = "Permit read access to the Clothing folder with external ID asdfjkl12347890.",
@@ -111,7 +111,7 @@ var sdk = new CldProvisioning(
     }
 );
 
-var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() {
+var res = await sdk.CustomPolicies.CreateAsync(createCustomPolicy: new CreateCustomPolicy() {
     PolicyStatement = "permit(principal == Cloudinary::APIKey::\"1234\",action==Cloudinary::Action::\"read\",resource is Cloudinary::Folder ) when {resource.ancestor_ids.contains(\"asdfjkl12347890\")} ;",
     Description = "Permit read access to the Clothing folder with external ID asdfjkl12347890.",
     ScopeType = ScopeTypeEnum.Prodenv,
@@ -136,7 +136,7 @@ var sdk = new CldProvisioning(
     }
 );
 
-var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() {
+var res = await sdk.CustomPolicies.CreateAsync(createCustomPolicy: new CreateCustomPolicy() {
     PolicyStatement = @"permit(principal == Cloudinary::APIKey::\""1234\"",action==Cloudinary::Action::\""read\"",resource is Cloudinary::Folder ) when {resource.ancestor_ids.contains(\""asdfjkl12347890\"")} ;
     ",
     Description = "Permit read access to the Clothing folder with external ID asdfjkl12347890.",
@@ -162,7 +162,7 @@ var sdk = new CldProvisioning(
     }
 );
 
-var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() {
+var res = await sdk.CustomPolicies.CreateAsync(createCustomPolicy: new CreateCustomPolicy() {
     PolicyStatement = @"permit(principal == Cloudinary::APIKey::\""1234\"",action==Cloudinary::Action::\""read\"",resource is Cloudinary::Folder ) when {resource.ancestor_ids.contains(\""asdfjkl12347890\"")} ;
     ",
     Description = "Permit read access to the Clothing folder with external ID asdfjkl12347890.",
@@ -188,7 +188,7 @@ var sdk = new CldProvisioning(
     }
 );
 
-var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() {
+var res = await sdk.CustomPolicies.CreateAsync(createCustomPolicy: new CreateCustomPolicy() {
     PolicyStatement = @"permit(principal == Cloudinary::APIKey::\""1234\"",action==Cloudinary::Action::\""read\"",resource is Cloudinary::Folder ) when {resource.ancestor_ids.contains(\""asdfjkl12347890\"")} ;
     ",
     Description = "Permit read access to the Clothing folder with external ID asdfjkl12347890.",
@@ -202,10 +202,10 @@ var res = await sdk.CustomPolicies.CreateAsync(customPolicy: new CustomPolicy() 
 
 ### Parameters
 
-| Parameter                                               | Type                                                    | Required                                                | Description                                             |
-| ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
-| `CustomPolicy`                                          | [CustomPolicy](../../Models/Components/CustomPolicy.md) | :heavy_check_mark:                                      | Policy details.                                         |
-| `AccountId`                                             | *string*                                                | :heavy_minus_sign:                                      | Account ID                                              |
+| Parameter                                                           | Type                                                                | Required                                                            | Description                                                         |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `CreateCustomPolicy`                                                | [CreateCustomPolicy](../../Models/Components/CreateCustomPolicy.md) | :heavy_check_mark:                                                  | Policy details.                                                     |
+| `AccountId`                                                         | *string*                                                            | :heavy_minus_sign:                                                  | Account ID                                                          |
 
 ### Response
 

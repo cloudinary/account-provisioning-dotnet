@@ -98,7 +98,7 @@ var sdk = new CldProvisioning(
 var res = await sdk.Users.CreateAsync(requestBody: new CreateUserRequestBody() {
     Name = "jenny_bar",
     Email = "jenny_bar@example.com",
-    Role = Cloudinary.Account.Provisioning.Models.Requests.Role.MasterAdmin,
+    Role = Role.MasterAdmin,
 });
 
 // handle response
@@ -110,6 +110,7 @@ var res = await sdk.Users.CreateAsync(requestBody: new CreateUserRequestBody() {
 using Cloudinary.Account.Provisioning;
 using Cloudinary.Account.Provisioning.Models.Components;
 using Cloudinary.Account.Provisioning.Models.Requests;
+using System.Collections.Generic;
 
 var sdk = new CldProvisioning(
     accountId: "<id>",
@@ -122,8 +123,12 @@ var sdk = new CldProvisioning(
 var res = await sdk.Users.CreateAsync(requestBody: new CreateUserRequestBody() {
     Name = "John",
     Email = "john@example.com",
-    Role = Cloudinary.Account.Provisioning.Models.Requests.Role.TechnicalAdmin,
     Enabled = true,
+    Roles = new List<RoleAssignment>() {
+        new RoleAssignment() {
+            Id = "media_library_admin",
+        },
+    },
 });
 
 // handle response
@@ -205,6 +210,8 @@ Learn more about updating a specific user.
 ```csharp
 using Cloudinary.Account.Provisioning;
 using Cloudinary.Account.Provisioning.Models.Components;
+using Cloudinary.Account.Provisioning.Models.Requests;
+using System.Collections.Generic;
 
 var sdk = new CldProvisioning(
     accountId: "<id>",
@@ -216,11 +223,14 @@ var sdk = new CldProvisioning(
 
 var res = await sdk.Users.UpdateAsync(
     userId: "0abed8dfcc039ea05e2a1d494fd442",
-    userRequest: new UserRequest() {
+    requestBody: new UpdateUserRequestBody() {
         Name = "John",
         Email = "john@example.com",
-        Role = UserRequestRole.TechnicalAdmin,
         Enabled = true,
+        RoleManagement = new RoleManagementRequest() {
+            Operation = Operation.Add,
+            Roles = new List<RoleAssignment>() {},
+        },
     }
 );
 
@@ -229,11 +239,11 @@ var res = await sdk.Users.UpdateAsync(
 
 ### Parameters
 
-| Parameter                                             | Type                                                  | Required                                              | Description                                           | Example                                               |
-| ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-| `UserId`                                              | *string*                                              | :heavy_check_mark:                                    | The ID of the user.                                   | 0abed8dfcc039ea05e2a1d494fd442                        |
-| `UserRequest`                                         | [UserRequest](../../Models/Components/UserRequest.md) | :heavy_check_mark:                                    | User details to update.                               |                                                       |
-| `AccountId`                                           | *string*                                              | :heavy_minus_sign:                                    | Account ID                                            |                                                       |
+| Parameter                                                               | Type                                                                    | Required                                                                | Description                                                             | Example                                                                 |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `UserId`                                                                | *string*                                                                | :heavy_check_mark:                                                      | The ID of the user.                                                     | 0abed8dfcc039ea05e2a1d494fd442                                          |
+| `RequestBody`                                                           | [UpdateUserRequestBody](../../Models/Requests/UpdateUserRequestBody.md) | :heavy_check_mark:                                                      | User details to update.                                                 |                                                                         |
+| `AccountId`                                                             | *string*                                                                | :heavy_minus_sign:                                                      | Account ID                                                              |                                                                         |
 
 ### Response
 
