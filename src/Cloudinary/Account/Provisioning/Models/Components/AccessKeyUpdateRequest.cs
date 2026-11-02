@@ -29,7 +29,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         public bool? Enabled { get; set; }
 
         /// <summary>
-        /// Designates the access key for a specific purpose while allowing it to be used for other purposes, as well.<br/>
+        /// Designates the access key for a specific purpose while allowing it to be used for other purposes, as well. <br/>
         /// This action replaces any previously assigned key. **Possible values**: `webhooks`
         /// </summary>
         [JsonProperty("dedicated_for")]

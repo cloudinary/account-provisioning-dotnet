@@ -30,7 +30,7 @@ namespace Cloudinary.Account.Provisioning
         /// Get billing usage information.
         /// </summary>
         /// <remarks>
-        /// Retrieve billing usage metrics for your account and product environments,<br/>
+        /// Retrieve billing usage metrics for your account and product environments, <br/>
         /// including storage, bandwidth, impressions, and transformations.<br/>
         /// <br/>
         /// If `year` is provided:<br/>
@@ -78,7 +78,7 @@ namespace Cloudinary.Account.Provisioning
         /// Get billing usage information.
         /// </summary>
         /// <remarks>
-        /// Retrieve billing usage metrics for your account and product environments,<br/>
+        /// Retrieve billing usage metrics for your account and product environments, <br/>
         /// including storage, bandwidth, impressions, and transformations.<br/>
         /// <br/>
         /// If `year` is provided:<br/>

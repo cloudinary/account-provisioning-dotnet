@@ -10,7 +10,7 @@
 #nullable enable
 namespace Cloudinary.Account.Provisioning.Models.Requests
 {
-    using Cloudinary.Account.Provisioning.Models.Components;
+    using Cloudinary.Account.Provisioning.Models.Requests;
     using Cloudinary.Account.Provisioning.Utils;
 
     public class UpdateUserRequest
@@ -31,6 +31,6 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         /// User details to update.
         /// </summary>
         [SpeakeasyMetadata("request:mediaType=application/json")]
-        public UserRequest UserRequest { get; set; } = default!;
+        public UpdateUserRequestBody RequestBody { get; set; } = default!;
     }
 }

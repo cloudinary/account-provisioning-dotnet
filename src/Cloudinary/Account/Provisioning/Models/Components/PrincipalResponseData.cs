@@ -13,6 +13,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
     using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class PrincipalResponseData
     {
@@ -32,7 +33,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         public string? RoleId { get; set; }
 
         [JsonProperty("policy_parameters")]
-        public PrincipalResponseDataPolicyParameters? PolicyParameters { get; set; }
+        public Dictionary<string, object>? PolicyParameters { get; set; }
 
         /// <summary>
         /// Specifies where the role/policy is applied, either at the account level or within product environments.

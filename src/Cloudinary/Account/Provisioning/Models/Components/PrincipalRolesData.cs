@@ -13,6 +13,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
     using Cloudinary.Account.Provisioning.Models.Components;
     using Cloudinary.Account.Provisioning.Utils;
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class PrincipalRolesData
     {
@@ -64,7 +65,7 @@ namespace Cloudinary.Account.Provisioning.Models.Components
         /// - When assigning the role, provide the instance, e.g. `{"folder_id":"asdfjkl12347890"}`. This specification is passed to the `policy_statement` (Cedar).
         /// </summary>
         [JsonProperty("policy_parameters")]
-        public PolicyParameters? PolicyParameters { get; set; } = null;
+        public Dictionary<string, object>? PolicyParameters { get; set; } = null;
 
         /// <summary>
         /// Creation time of the policy in epoch time.

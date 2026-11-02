@@ -57,18 +57,18 @@ namespace Cloudinary.Account.Provisioning
         /// <remarks>
         /// Create a new custom policy with a statement defined in Cedar. This policy specifies permissions for a principal, allowing a specific action on a designated resource, within a particular scope.
         /// </remarks>
-        /// <param name="customPolicy">Policy details.</param>
+        /// <param name="createCustomPolicy">Policy details.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>An awaitable task that returns a <see cref="CustomPolicyResponse"/> object when completed.</returns>
-        /// <exception cref="ArgumentNullException">The required parameter <paramref name="customPolicy"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">The required parameter <paramref name="createCustomPolicy"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
         /// <exception cref="PermissionsErrorResponse">Missing fields, invalid field, or invalid Cedar statement. Thrown when the API returns a 400, 401, 403, 409 or 500 response.</exception>
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public Task<CustomPolicyResponse> CreateAsync(
-            CustomPolicy customPolicy,
+            CreateCustomPolicy createCustomPolicy,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         );
@@ -314,26 +314,26 @@ namespace Cloudinary.Account.Provisioning
         /// <remarks>
         /// Create a new custom policy with a statement defined in Cedar. This policy specifies permissions for a principal, allowing a specific action on a designated resource, within a particular scope.
         /// </remarks>
-        /// <param name="customPolicy">Policy details.</param>
+        /// <param name="createCustomPolicy">Policy details.</param>
         /// <param name="accountId">Account ID.</param>
         /// <param name="cancellationToken">An optional cancellation token to signal when the operation should be aborted.</param>
         /// <returns>An awaitable task that returns a <see cref="CustomPolicyResponse"/> object when completed.</returns>
-        /// <exception cref="ArgumentNullException">The required parameter <paramref name="customPolicy"/> is null.</exception>
+        /// <exception cref="ArgumentNullException">The required parameter <paramref name="createCustomPolicy"/> is null.</exception>
         /// <exception cref="OperationCanceledException">The operation was aborted via the provided cancellation token.</exception>
         /// <exception cref="HttpRequestException">The HTTP request failed due to network issues.</exception>
         /// <exception cref="ResponseValidationException">The response body could not be deserialized.</exception>
         /// <exception cref="PermissionsErrorResponse">Missing fields, invalid field, or invalid Cedar statement. Thrown when the API returns a 400, 401, 403, 409 or 500 response.</exception>
         /// <exception cref="APIException">Default API Exception. Thrown when the API returns a 4XX or 5XX response.</exception>
         public async Task<CustomPolicyResponse> CreateAsync(
-            CustomPolicy customPolicy,
+            CreateCustomPolicy createCustomPolicy,
             string? accountId = null,
             CancellationToken? cancellationToken = null
         )
         {
-            if (customPolicy == null) throw new ArgumentNullException(nameof(customPolicy));
+            if (createCustomPolicy == null) throw new ArgumentNullException(nameof(createCustomPolicy));
 
             var request = new CreateCustomPolicyRequest() {
-                CustomPolicy = customPolicy,
+                CreateCustomPolicy = createCustomPolicy,
                 AccountId = accountId,
             };
             request.AccountId ??= SDKConfiguration.AccountId;
@@ -349,7 +349,7 @@ namespace Cloudinary.Account.Provisioning
                 httpRequest.Headers.Add("Accept", "application/json");
             }
 
-            var serializedBody = RequestBodySerializer.Serialize(request, "CustomPolicy", "json", false, false);
+            var serializedBody = RequestBodySerializer.Serialize(request, "CreateCustomPolicy", "json", false, false);
             if (serializedBody != null)
             {
                 httpRequest.Content = serializedBody;

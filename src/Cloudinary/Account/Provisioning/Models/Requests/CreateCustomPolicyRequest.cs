@@ -25,6 +25,6 @@ namespace Cloudinary.Account.Provisioning.Models.Requests
         /// Policy details.
         /// </summary>
         [SpeakeasyMetadata("request:mediaType=application/json")]
-        public CustomPolicy CustomPolicy { get; set; } = default!;
+        public CreateCustomPolicy CreateCustomPolicy { get; set; } = default!;
     }
 }

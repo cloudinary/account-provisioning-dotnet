@@ -135,7 +135,9 @@ await sdk.Principals.UpdateRolesAsync(updatePrincipalRolesRequest: new Cloudinar
         new RoleToManage() {
             Id = "marketing_content_contributor_1357fhe",
             ScopeId = "975l29lz02jt0836fhwi",
-            PolicyParameters = new RoleToManagePolicyParameters() {},
+            PolicyParameters = new Dictionary<string, object>() {
+
+            },
         },
     },
 });
@@ -168,7 +170,9 @@ await sdk.Principals.UpdateRolesAsync(updatePrincipalRolesRequest: new Cloudinar
         new RoleToManage() {
             Id = "marketing_content_contributor_1357fhe",
             ScopeId = "975l29lz02jt0836fhwi",
-            PolicyParameters = new RoleToManagePolicyParameters() {},
+            PolicyParameters = new Dictionary<string, object>() {
+
+            },
         },
     },
 });
@@ -370,7 +374,9 @@ var res = await sdk.Principals.InspectMultipleAsync(inspectRequest: new Cloudina
             Id = "a382ltieo893jhioqpg8urp",
         },
     },
-    PolicyParameters = new InspectRequestPolicyParameters() {},
+    PolicyParameters = new Dictionary<string, object>() {
+        { "folder_id", "asdfjkl12347890" },
+    },
 });
 
 // handle response

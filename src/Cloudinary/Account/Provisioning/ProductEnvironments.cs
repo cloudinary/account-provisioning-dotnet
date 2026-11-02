@@ -31,7 +31,7 @@ namespace Cloudinary.Account.Provisioning
         /// <see href="https://cloudinary.com/documentation/provisioning_api#get_product_environments">Learn more about getting product environments.</see>
         /// </summary>
         /// <remarks>
-        /// Return an array of all product environments, or if conditions are specified,<br/>
+        /// Return an array of all product environments, or if conditions are specified, <br/>
         /// return the relevant product environments.
         /// </remarks>
         /// <param name="request">A <see cref="GetProductEnvironmentsRequest"/> parameter.</param>
@@ -161,7 +161,7 @@ namespace Cloudinary.Account.Provisioning
         /// <see href="https://cloudinary.com/documentation/provisioning_api#get_product_environments">Learn more about getting product environments.</see>
         /// </summary>
         /// <remarks>
-        /// Return an array of all product environments, or if conditions are specified,<br/>
+        /// Return an array of all product environments, or if conditions are specified, <br/>
         /// return the relevant product environments.
         /// </remarks>
         /// <param name="request">A <see cref="GetProductEnvironmentsRequest"/> parameter.</param>
